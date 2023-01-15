@@ -5,13 +5,13 @@ const Navigation = () => {
   return (
     <nav>
         <Link href={'/'}>
-            <p className='highlight-text'>Home</p>
+            <p className='nav-active'>Home</p>
         </Link>
         <Link href={'/'}>
-            <p className='highlight-text'>Blog</p>
+            <p className='dark-text'>Blog</p>
         </Link>
         <Link href={'/'}>
-            <p className='highlight-text'>Projects</p>
+            <p className='dark-text'>Projects</p>
         </Link>
     </nav>
   )
