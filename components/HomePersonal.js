@@ -11,7 +11,7 @@ const HomePersonal = () => {
             I buid software
         </h3>
         <p className='dark-text'>
-            I'm a software engineer with experience in delivering clean, elegant and efficent code.
+            I'm a software engineer with experience in delivering clean, elegant and efficent code. Lorem ipsum dolor Sit amei
         </p>
         <PersonalLinks/>
         
