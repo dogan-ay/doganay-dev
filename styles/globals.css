@@ -108,12 +108,13 @@ p {
 /* Reusable Classes */
 
 .container {
-    max-width: 50rem;
+    max-width: 45rem;
     margin: 0 auto;
 }
 
 p.dark-text {
     color: var(--dark-text);
+    line-height: normal;
 }
 
 p.mid-text {
@@ -131,12 +132,28 @@ p.highlight-text {
 p.green-text {
     color: var(--green-color);
     font-size: var(--small-text);
+    font-weight: 600;
+}
+
+
+p.white-mini-text {
+    color: white;
+    font-size: var(--small-text);
+    font-weight: 600;
 }
 
 p.date {
     color: var(--dark-text);
     font-size: var(--mini-text);
 }
+
+p.nav-active {
+    color: white;
+    border-bottom: 2px solid var(--green-color);
+    line-height: normal;
+    
+}
+
 
 h4.light-title {
     color: var(--light-text);
@@ -151,13 +168,62 @@ h4.dark-title {
     flex-direction: column;
 }
 
-/* Nav Styles */
+.flex {
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+.small-line {
+    height: 1px;
+    width: 8rem;
+    background-color: var(--dark-text);
+}
+
+.dark-line {
+    height: 1px;
+    width: 8rem;
+    background-color: #333333;
+}
+
+p.arrow {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.more-button {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    line-height:1.5rem;
+
+}
+
+.page-title {
+    border-bottom: 2px solid #e5e5e521;
+    padding-bottom: 1rem;
+    margin: 3rem 0;
+}
+
+.flex-col-end {
+    align-self: flex-end;
+}
+
+/* Nav and Footer Styles */
 
 nav {
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
     padding: 1.5rem 0;
+    margin-right: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 
 /* Home Styles */
@@ -180,8 +246,42 @@ nav {
     gap: 0.5rem;
 }
 
-.small-line {
-    height: 1px;
-    width: 8rem;
-    background-color: white;
+.blog-post-card {
+    gap: 0.5rem;
+}
+
+.home-newest {
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.project-card {
+    gap: 2rem;
+    padding: 1.5rem;
+    border-radius: 0.6rem;
+    background-color: var(--card-background);
+}
+
+.home-project-content {
+    gap: 0.5rem;
+}
+
+.project-card-content-container {
+    width: 50%;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.projects-page-wrapper {
+    gap: 2rem;
+}
+
+.project-img {
+    width: 50%;
+}
+
+.project-img img{
+    width: 100%;
+    object-fit: cover;
+
 }
