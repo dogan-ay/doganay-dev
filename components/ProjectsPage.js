@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 
-const ProjectsPage = () => {
+const ProjectsPage = (props) => {
 
     const fakeProject = [
         {
@@ -16,6 +16,7 @@ const ProjectsPage = () => {
         }
         
       ]
+    const projectsData = props.projectsData
 
   return (
     <div>
@@ -23,7 +24,7 @@ const ProjectsPage = () => {
 
         <div className='flex-col projects-page-wrapper'>
             {
-                fakeProject.map( item => (
+                projectsData.map( item => (
                     <ProjectCard data={item} />
                 ))
             }

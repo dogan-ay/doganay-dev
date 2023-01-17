@@ -73,6 +73,7 @@ a {
 body {
     background-color: var(--background-color);
     font-family: 'Open Sans';
+   
 }
 
 img {
@@ -87,6 +88,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    color: white;
 }
 
 
@@ -110,6 +112,9 @@ p {
 .container {
     max-width: 45rem;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 p.dark-text {
@@ -136,8 +141,8 @@ p.green-text {
 }
 
 
-p.white-mini-text {
-    color: white;
+p.light-mini-text {
+    color: var(--light-text);
     font-size: var(--small-text);
     font-weight: 600;
 }
@@ -147,16 +152,13 @@ p.date {
     font-size: var(--mini-text);
 }
 
-p.nav-active {
-    color: white;
-    border-bottom: 2px solid var(--green-color);
-    line-height: normal;
-    
-}
-
 
 h4.light-title {
     color: var(--light-text);
+}
+
+h4.mid-title {
+    color: var(--mid-text);
 }
 
 h4.dark-title {
@@ -192,11 +194,19 @@ p.arrow {
 }
 
 .more-button {
-    display: flex;
+    display: inline-flex;
     gap: 0.5rem;
     align-items: center;
     line-height:1.5rem;
+    transition: 0.3s;
+    border-radius: 50px;
+    padding: 0.3rem 0;
 
+}
+
+.more-button:hover {
+    background-color: var(--card-background);
+    padding: 0.3rem 0.9rem;
 }
 
 .page-title {
@@ -210,13 +220,36 @@ p.arrow {
 }
 
 /* Nav and Footer Styles */
+main{
+    flex: 1;
+}
 
 nav {
     display: flex;
     justify-content: flex-end;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1.5rem 0;
     margin-right: 2rem;
+}
+
+
+p.nav-active {
+    color: white;
+    background-color: var(--card-background) !important;
+
+    
+}
+
+p.nav-item {
+    padding: 0.3rem 0.8rem;
+    line-height: normal;
+    border-radius: 0.4rem;
+    transition: 0.2s background-color;
+    background-color: transparent;
+}
+
+p.nav-item:hover {
+    background-color: var(--card-background);
 }
 
 footer {
@@ -250,9 +283,33 @@ footer {
     gap: 0.5rem;
 }
 
+.effect {
+    transition: 0.2s;
+}
+
+.card-effect:hover  div.dark-line {
+    background-color: var(--green-color);
+}
+
+.card-effect:hover  h4 {
+    color: white;
+}
+
+.card-effect:hover  p.dark-text {
+    color: var(--mid-text);
+}
+
+.card-effect:hover > p.date {
+    color: var(--mid-text);
+}
+
+.card-effect:hover p.mid-text {
+    color: var(--light-text);
+}
+
 .home-newest {
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .project-card {
@@ -284,4 +341,97 @@ footer {
     width: 100%;
     object-fit: cover;
 
+}
+
+.github-icon:hover path.github-inner {
+    fill: #a41cfe;
+}
+
+.github-icon:hover path.github-outer{
+    fill: #a41cfe42;
+
+}
+
+.linkedin-icon:hover path.linkedin-inner {
+    fill: #0173b1;
+}
+
+.linkedin-icon:hover path.linkedin-outer{
+    fill: #0173b16c; 
+}
+
+
+.twitter-icon:hover path.twitter-inner {
+    fill: #1d9bf0;
+}
+
+.twitter-icon:hover path.twitter-outer{
+    fill: #1d9cf088; 
+}
+
+
+
+/* Blogpost Styles */
+
+article {
+    margin-top: 2rem;
+}
+
+article  p {
+    color: var(--mid-text);
+    line-height: 1.4rem;
+}
+
+.blogpost-info {
+    border-left: 5px solid var(--green-color);
+    padding: 0.7rem 1rem;
+    background-color: var(--card-background);
+    margin: 1.5rem 0;
+    border-radius: 0.3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+p.post-info {
+    font-size: 0.9rem;
+    color: var(--dark-text);
+}
+
+
+/* Project Styles */
+
+article.project {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+p.tech-tag {
+    padding: 0.2rem 1rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    color: white;
+}
+
+p.CSS {
+    background-color: #016fb996;
+}
+
+p.JavaScript {
+    background-color: #f7de1f7e;
+}
+
+p.React {
+    background-color: #55cef080;
+}
+
+p.HTML {
+    background-color: #e44a2494;
+}
+
+.button {
+    background-color: var(--card-background);
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    display: inline;
 }
