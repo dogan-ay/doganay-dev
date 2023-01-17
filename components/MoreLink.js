@@ -7,7 +7,7 @@ const MoreLink = (props) => {
   return (
     <Link href={link}>
         <div className='more-button'>
-            <p className='white-mini-text'>More</p>
+            <p className='light-mini-text'>More</p>
             <p className='arrow'>⟶</p>
         </div>
     </Link>

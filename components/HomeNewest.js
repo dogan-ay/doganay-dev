@@ -6,7 +6,7 @@ import MoreLink from './MoreLink';
 import MoreButton from './MoreButton';
 
 const HomeNewest = (props) => {
-    const [data, setData] = useState([...props.data]);
+    const [data, setData] = useState(props.data);
     const [category, setCategory] = useState(props.category);
     const more = props.more == 'link' ? <MoreLink link={props.link}/> : props.more == 'button' ? <MoreButton/> : null;
     const contentInit = (category, data) => {
