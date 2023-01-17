@@ -1,20 +1,28 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
+import Link from 'next/link'
+import { format, parseISO } from 'date-fns'
+
 
 const BlogPostCard = (props) => {
     const data = props.data;
 
     const [date, setDate] = useState(data['date'])
     const [title, setTitle] = useState(data['title'])
-    const [content, setContent] = useState(data['content'])  
-
+    const [content, setContent] = useState(data['description'])  
+    const [link, setLink] = useState(data['url'])
   return (
-    <div className='blog-post-card flex-col'>
-        <p className='date'>{date}</p>
-        <h4 className='dark-title'>{title}</h4>
-        <p className='dark-text'>{content}</p>
-        <div className='dark-line'></div>
-    </div>
+    <Link href={link}>
+        <div className='blog-post-card flex-col effect card-effect'>
+        <p className='date' dateTime={data.date}>
+            {format(parseISO(date), 'LLLL d, yyyy')}
+        </p>
+        <h4 className='dark-title effect'>{title}</h4>
+        <div className='dark-line effect'></div>
+
+        <p className='dark-text effect'>{content}</p>
+        </div>
+    </Link>
   )
 }
 

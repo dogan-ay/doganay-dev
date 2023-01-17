@@ -1,8 +1,9 @@
 import React from 'react'
 import HomeNewest from './HomeNewest'
 
-const BlogPage = () => {
 
+const BlogPage = (props) => {
+  const test = () => console.log(data)
     const fakePost = [
         {
           date: '14/01/2023',
@@ -16,12 +17,12 @@ const BlogPage = () => {
         }
         
       ]
-    
-
+    const data = props.data;
   return (
     <div>
         <div className='page-title'><h1>Blog</h1></div>
-        <HomeNewest  more={'button'} category={'blog'} data={fakePost} />
+        <HomeNewest  more={'button'} category={'blog'} data={data} />
+        {test()}
     </div>
   )
 }
