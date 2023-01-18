@@ -10,13 +10,13 @@ const ProjectCard = (props) => {
     const [tags, setTags] = useState([...data['tags']])
     const [content, setContent] = useState(data['description'])  
     const [link, setLink] = useState(data['url'])
-
+    const [img, setImg] = useState(data['img'])
 
   return (
             <Link href={link}>
-                <div className='project-card  card-effect flex'>
+                <div className='project-card  project-mobile card-effect flex'>
                 <div className='project-img'>
-                    <img src='/project.webp'></img>
+                    <img src={'/'+img}></img>
                 </div>
                 <div className='project-card-content-container flex-col'>
                     <h4 className='mid-title effect'>{title}</h4>

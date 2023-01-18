@@ -23,6 +23,7 @@ export type Post = {
   body: Markdown
   slug: string
   url: string
+  readingTime: json
 }
 
 export type Project = {
@@ -37,6 +38,8 @@ export type Project = {
   /** The date of the post */
   date: IsoDateTimeString
   tags: string[]
+  img?: string | undefined
+  deployment?: string | undefined
   /** Markdown file body */
   body: Markdown
   slug: string

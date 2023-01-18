@@ -219,6 +219,10 @@ p.arrow {
     align-self: flex-end;
 }
 
+.mdx-body p {
+    margin-bottom: 1.5rem;
+}
+
 /* Nav and Footer Styles */
 main{
     flex: 1;
@@ -269,7 +273,7 @@ footer {
 .personal-links {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1vw;
     margin: 0 auto;
     padding-top: 3rem;
 }
@@ -335,6 +339,7 @@ footer {
 
 .project-img {
     width: 50%;
+    
 }
 
 .project-img img{
@@ -411,22 +416,29 @@ p.tech-tag {
     border-radius: 50px;
     font-size: 0.9rem;
     color: white;
+    background-color: transparent;
+    border: 1px solid transparent;
 }
 
 p.CSS {
-    background-color: #016fb996;
+    color: #016fb9;
+    border-color: #016fb9;
 }
 
 p.JavaScript {
-    background-color: #f7de1f7e;
+    color: #f7de1f;
+    border-color: #f7de1f;
 }
 
 p.React {
-    background-color: #55cef080;
+    color: #55cef0;
+    border-color: #55cef0;
 }
 
 p.HTML {
-    background-color: #e44a2494;
+    color: #e44a24;
+    border-color: #e44a24;
+    
 }
 
 .button {
@@ -434,4 +446,39 @@ p.HTML {
     padding: 0.5rem 1.5rem;
     border-radius: 50px;
     display: inline;
+}
+
+@media screen and (max-width: 800px){
+    .container {
+        margin-inline: 5%;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .small-line {
+        width: 5rem;
+    }
+
+    p.post-info {
+        font-size: calc(0.5rem + 1vw)
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .project-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .project-card-content-container {
+        width: 100%;
+    }
 }

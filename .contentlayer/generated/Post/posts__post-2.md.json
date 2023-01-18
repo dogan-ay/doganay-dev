@@ -16,5 +16,11 @@
   },
   "type": "Post",
   "slug": "post-2",
-  "url": "/blog/post-2"
+  "url": "/blog/post-2",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.225,
+    "time": 13500,
+    "words": 45
+  }
 }

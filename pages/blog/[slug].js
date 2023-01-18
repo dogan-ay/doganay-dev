@@ -23,8 +23,12 @@ const blogpost = ({post}) => {
   return (
     <article>
       <h2>{post.title}</h2>
-      <div className='blogpost-info'><p className='post-info'>Doğan Ay Şengül /  {format(parseISO(post.date), 'LLLL d, yyyy')}</p> <p>·</p> <p className='post-info'>2 min reads </p></div>
-      <div className="light-text" dangerouslySetInnerHTML={{ __html: post.body.html }}></div>
+      <div className='blogpost-info'>
+        <p className='post-info'>Doğan Ay Şengül /  {format(parseISO(post.date), 'LLLL d, yyyy')}</p>
+         <p>·</p>
+         <p className='post-info'>{post.readingTime.text} </p>
+        </div>
+      <div className="light-text mdx-body" dangerouslySetInnerHTML={{ __html: post.body.html }}></div>
 
     </article>
     )

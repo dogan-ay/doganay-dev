@@ -3,19 +3,6 @@ import ProjectCard from './ProjectCard'
 
 const ProjectsPage = (props) => {
 
-    const fakeProject = [
-        {
-          tags: ['React', 'HTML', 'CSS'],
-          title: 'Lorem Ipsum Dolor Sıt',
-          content: 'Lorem ipsum dolor sit amei, lorem ipsum dolor sit amei. Lorem ipsum dolor amei, lorem ipsum dolor amei. '
-        },
-        {
-          tags: ['React', 'HTML', 'CSS'],
-          title: 'Lorem Ipsum Dolor Sıt',
-          content: 'Lorem ipsum dolor sit amei, lorem ipsum dolor sit amei. Lorem ipsum dolor amei, lorem ipsum dolor amei. '
-        }
-        
-      ]
     const projectsData = props.projectsData
 
   return (

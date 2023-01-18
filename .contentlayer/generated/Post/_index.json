@@ -17,7 +17,13 @@
     },
     "type": "Post",
     "slug": "post-1",
-    "url": "/blog/post-1"
+    "url": "/blog/post-1",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.225,
+      "time": 13500,
+      "words": 45
+    }
   },
   {
     "title": "Lorem  Post - 2",
@@ -37,7 +43,13 @@
     },
     "type": "Post",
     "slug": "post-2",
-    "url": "/blog/post-2"
+    "url": "/blog/post-2",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.225,
+      "time": 13500,
+      "words": 45
+    }
   },
   {
     "title": "Lorem  Post - 3",
@@ -57,6 +69,12 @@
     },
     "type": "Post",
     "slug": "post-3",
-    "url": "/blog/post-3"
+    "url": "/blog/post-3",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.38,
+      "time": 22800,
+      "words": 76
+    }
   }
 ]

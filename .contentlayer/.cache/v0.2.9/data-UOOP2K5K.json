@@ -1,0 +1,143 @@
+{
+  "cacheItemsMap": {
+    "posts/post-1.md": {
+      "document": {
+        "title": "Lorem  Post - 1",
+        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+        "date": "2021-03-23T21:00:00.000Z",
+        "body": {
+          "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>"
+        },
+        "_id": "posts/post-1.md",
+        "_raw": {
+          "sourceFilePath": "posts/post-1.md",
+          "sourceFileName": "post-1.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/post-1"
+        },
+        "type": "Post",
+        "slug": "post-1",
+        "url": "/blog/post-1"
+      },
+      "documentHash": "1673981339439",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/post-2.md": {
+      "document": {
+        "title": "Lorem  Post - 2",
+        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+        "date": "2021-02-23T21:00:00.000Z",
+        "body": {
+          "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>"
+        },
+        "_id": "posts/post-2.md",
+        "_raw": {
+          "sourceFilePath": "posts/post-2.md",
+          "sourceFileName": "post-2.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/post-2"
+        },
+        "type": "Post",
+        "slug": "post-2",
+        "url": "/blog/post-2"
+      },
+      "documentHash": "1673981332667",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/post-3.md": {
+      "document": {
+        "title": "Lorem  Post - 3",
+        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+        "date": "2022-12-31T21:00:00.000Z",
+        "body": {
+          "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n\r\nLorem ipsum dolor sit amei. Irure elit proident consequat veniam minim ipsum ex\r\npariatur. Irure elit proident consequat veniam minim ipsum ex pariatur.Irure elit proident consequat veniam minim ipsum ex\r\npariatur.",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>\n<p>Lorem ipsum dolor sit amei. Irure elit proident consequat veniam minim ipsum ex\r\npariatur. Irure elit proident consequat veniam minim ipsum ex pariatur.Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>"
+        },
+        "_id": "posts/post-3.md",
+        "_raw": {
+          "sourceFilePath": "posts/post-3.md",
+          "sourceFileName": "post-3.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/post-3"
+        },
+        "type": "Post",
+        "slug": "post-3",
+        "url": "/blog/post-3"
+      },
+      "documentHash": "1673994847985",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "projects/project-2.mdx": {
+      "document": {
+        "title": "Lorem Ipsum Project - 2",
+        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+        "date": "2021-12-24T00:00:00.000Z",
+        "tags": [
+          "React",
+          "JavaScript",
+          "CSS"
+        ],
+        "img": "project.webp",
+        "deployment": "https://github.com",
+        "body": {
+          "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>"
+        },
+        "_id": "projects/project-2.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/project-2.mdx",
+          "sourceFileName": "project-2.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/project-2"
+        },
+        "type": "Project",
+        "slug": "project-2.mdx",
+        "url": "/projects/project-2.mdx"
+      },
+      "documentHash": "1674068080380",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/project-1.mdx": {
+      "document": {
+        "title": "Lorem Ipsum Project - 1",
+        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+        "date": "2021-12-24T00:00:00.000Z",
+        "tags": [
+          "React",
+          "JavaScript",
+          "CSS"
+        ],
+        "img": "project.webp",
+        "deployment": "https://github.com",
+        "body": {
+          "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n\r\nmehaba\r\ntest.\r\ntestr\r\n",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>\n<p>mehaba\r\ntest.\r\ntestr</p>"
+        },
+        "_id": "projects/project-1.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/project-1.mdx",
+          "sourceFileName": "project-1.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/project-1"
+        },
+        "type": "Project",
+        "slug": "project-1.mdx",
+        "url": "/projects/project-1.mdx"
+      },
+      "documentHash": "1674068509990",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    }
+  }
+}
