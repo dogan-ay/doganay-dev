@@ -2,6 +2,7 @@ import React from 'react'
 import { format, parseISO } from 'date-fns'
 import { allProjects } from 'contentlayer/generated' 
 import Link from 'next/link'
+import Meta from '@/components/Meta'
 
 
 export async function getStaticPaths() {
@@ -25,6 +26,8 @@ export async function getStaticPaths() {
   const Projects = ({project}) => {
 
   return (
+    <>
+    <Meta description={project.description} title={project.title} keywords={''}/>
     <article className='project'>
       <h2>{project.title}</h2>
       <div className="light-text mdx-body" dangerouslySetInnerHTML={{ __html: project.body.html }}></div>
@@ -39,6 +42,8 @@ export async function getStaticPaths() {
         {project.tags.map( tag => <p className={`tech-tag ${tag}`}>{tag}</p>)}
       </div>
     </article>  
+    </>
+
   )
 }
 

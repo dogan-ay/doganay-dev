@@ -2,6 +2,7 @@ import Home from "@/components/Home"
 import { compareDesc, format, parseISO } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
 import { allProjects } from 'contentlayer/generated'
+import Meta from "@/components/Meta"
 
 export async function getStaticProps() {
   let posts = allPosts.sort((a, b) => {
@@ -22,6 +23,9 @@ export async function getStaticProps() {
 
 export default function Index({posts, projects}) {
   return (
-    <Home blogData={posts} projectsData={projects}/>
+    <>
+      <Meta title={'Doğan Ay Şengül'} description={'Hi, I am Doğan'} keywords={'Software Developer'}/>
+        <Home blogData={posts} projectsData={projects}/>
+    </>
   )
 }

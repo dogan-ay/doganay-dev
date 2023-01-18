@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectsPage from '@/components/ProjectsPage'
 import { compareDesc, format, parseISO } from 'date-fns'
 import { allProjects } from 'contentlayer/generated'
+import Meta from '@/components/Meta'
 
 export async function getStaticProps() {
   const projects = allProjects.sort((a, b) => {
@@ -11,7 +12,10 @@ export async function getStaticProps() {
 }
 const Projects = ({projects}) => {
   return (
-    <ProjectsPage projectsData={projects}/>
+    <>
+        <Meta description={'All projects Doğan Ay Şengül'} title={'Projects - Doğan Ay Şengül'} keywords={''}/>
+        <ProjectsPage projectsData={projects}/>
+    </>
   )
 }
 

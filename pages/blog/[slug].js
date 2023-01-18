@@ -1,6 +1,7 @@
 import React from 'react'
 import { format, parseISO } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
+import Meta from '@/components/Meta'
 
 export async function getStaticPaths() {
   const paths = allPosts.map((post) => post.url)
@@ -21,6 +22,8 @@ export async function getStaticProps({ params }) {
 
 const blogpost = ({post}) => {
   return (
+    <>
+    <Meta description={post.description} title={post.title} keywords={''}/>
     <article>
       <h2>{post.title}</h2>
       <div className='blogpost-info'>
@@ -31,6 +34,8 @@ const blogpost = ({post}) => {
       <div className="light-text mdx-body" dangerouslySetInnerHTML={{ __html: post.body.html }}></div>
 
     </article>
+    </>
+
     )
 }
 
