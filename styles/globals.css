@@ -85,9 +85,6 @@ body {
     background: #555555;
 }
 
-::-webkit-scrollbar-button {
-    color: black;
-}
 
 
 img {
@@ -155,10 +152,10 @@ p.green-text {
 }
 
 
-p.light-mini-text {
-    color: var(--light-text);
+p.mid-mini-text {
+    color: var(--mid-text);
     font-size: var(--small-text);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 p.date {
@@ -204,7 +201,7 @@ h4.dark-title {
 
 p.arrow {
     font-size: 1.2rem;
-    color: white;
+    color: var(--mid-text);
 }
 
 .more-button {
@@ -221,6 +218,11 @@ p.arrow {
 .more-button:hover {
     background-color: var(--card-background);
     padding: 0.3rem 0.9rem;
+}
+
+.more-button:hover p {
+    color: var(--light-text) !important;
+
 }
 
 .page-title {
