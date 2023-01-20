@@ -76,6 +76,20 @@ body {
    
 }
 
+::-webkit-scrollbar {
+    background: #333333;
+    width: 0.9rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555555;
+}
+
+::-webkit-scrollbar-button {
+    color: black;
+}
+
+
 img {
     max-width: 100%;
 }
