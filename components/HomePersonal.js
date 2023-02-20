@@ -4,14 +4,14 @@ import PersonalLinks from './PersonalLinks'
 const HomePersonal = () => {
   return (
     <div className='home-personal flex-col'>
-        <h1>
+        <h1 className='home-title'>
             Hi, I am Doğan
         </h1>
-        <h3>
+        <h2>
             I buid software
-        </h3>
+        </h2>
         <p className='dark-text'>
-            I'm a software engineer with experience in delivering clean, elegant and efficent code. Lorem ipsum dolor Sit amei
+          I am a curious and passionate software developer working in the field of web technologies.
         </p>
         <PersonalLinks/>
         
