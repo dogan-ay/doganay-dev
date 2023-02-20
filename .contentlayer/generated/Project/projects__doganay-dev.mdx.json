@@ -1,0 +1,29 @@
+{
+  "title": "Personal Website - doganay.dev",
+  "description": "This website 🎯",
+  "date": "2023-02-20T00:00:00.000Z",
+  "tags": [
+    "React",
+    "Next.js",
+    "JavaScript",
+    "CSS",
+    "HTML"
+  ],
+  "img": "dogandev.png",
+  "deployment": "https://github.com/dogan-ay/doganay-dev",
+  "body": {
+    "raw": "\r\nI used my favorite tech stack while developing my personal website. Especially, Next.js makes things easy when developing simple applications with few features like this website. On the styling side, I used pure CSS. I don't use CSS libraries or frameworks for styling unless necessary. I'm using Contentlayer to make things easier on the backend. To briefly mention it, it is an SDK that converts files written in MDX format to JSON format and provides an API for you to access data. Also, this project is hosted on Github and deployed with Vercel.\r\n\r\n\r\n",
+    "html": "<p>I used my favorite tech stack while developing my personal website. Especially, Next.js makes things easy when developing simple applications with few features like this website. On the styling side, I used pure CSS. I don't use CSS libraries or frameworks for styling unless necessary. I'm using Contentlayer to make things easier on the backend. To briefly mention it, it is an SDK that converts files written in MDX format to JSON format and provides an API for you to access data. Also, this project is hosted on Github and deployed with Vercel.</p>"
+  },
+  "_id": "projects/doganay-dev.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/doganay-dev.mdx",
+    "sourceFileName": "doganay-dev.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/doganay-dev"
+  },
+  "type": "Project",
+  "slug": "doganay-dev",
+  "url": "/projects/doganay-dev"
+}

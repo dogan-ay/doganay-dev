@@ -1,6 +1,6 @@
 {
   "title": "Translate Formatter - Chrome Extension",
-  "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+  "description": "Delete line spaces in Google Translate!",
   "date": "2021-12-24T00:00:00.000Z",
   "tags": [
     "JavaScript",
@@ -10,8 +10,8 @@
   "img": "translate1.png",
   "deployment": "https://github.com/dogan-ay/translate-formatter",
   "body": {
-    "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n\r\n\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n\r\n\r\n\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n",
-    "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>\n<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>\n<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>"
+    "raw": "\r\nThe copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.\r\n\r\n\r\n",
+    "html": "<p>The copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.</p>"
   },
   "_id": "projects/translate-formatter.mdx",
   "_raw": {

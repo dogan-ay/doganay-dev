@@ -93,53 +93,21 @@
       "hasWarnings": false,
       "documentTypeName": "Post"
     },
-    "projects/project-2.mdx": {
-      "document": {
-        "title": "Lorem Ipsum Project - 2",
-        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
-        "date": "2021-12-24T00:00:00.000Z",
-        "tags": [
-          "React",
-          "JavaScript",
-          "CSS"
-        ],
-        "img": "project.webp",
-        "deployment": "https://github.com",
-        "body": {
-          "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n",
-          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>"
-        },
-        "_id": "projects/project-2.mdx",
-        "_raw": {
-          "sourceFilePath": "projects/project-2.mdx",
-          "sourceFileName": "project-2.mdx",
-          "sourceFileDir": "projects",
-          "contentType": "mdx",
-          "flattenedPath": "projects/project-2"
-        },
-        "type": "Project",
-        "slug": "project-2",
-        "url": "/projects/project-2"
-      },
-      "documentHash": "1674068080380",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
     "projects/translate-formatter.mdx": {
       "document": {
         "title": "Translate Formatter - Chrome Extension",
-        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+        "description": "Delete line spaces in Google Translate!",
         "date": "2021-12-24T00:00:00.000Z",
         "tags": [
           "JavaScript",
           "CSS",
           "HTML"
         ],
-        "img": "translate1.PNG",
+        "img": "translate1.png",
         "deployment": "https://github.com/dogan-ay/translate-formatter",
         "body": {
-          "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n\r\n\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n\r\n\r\n\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n",
-          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>\n<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>\n<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>"
+          "raw": "\r\nThe copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.\r\n\r\n\r\n",
+          "html": "<p>The copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.</p>"
         },
         "_id": "projects/translate-formatter.mdx",
         "_raw": {
@@ -153,7 +121,41 @@
         "slug": "translate-formatter",
         "url": "/projects/translate-formatter"
       },
-      "documentHash": "1675378124023",
+      "documentHash": "1676921081377",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/doganay-dev.mdx": {
+      "document": {
+        "title": "Personal Website - doganay.dev",
+        "description": "This website 🎯",
+        "date": "2023-02-20T00:00:00.000Z",
+        "tags": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
+        "img": "dogandev.png",
+        "deployment": "https://github.com/dogan-ay/doganay-dev",
+        "body": {
+          "raw": "\r\nI used my favorite tech stack while developing my personal website. Especially, Next.js makes things easy when developing simple applications with few features like this website. On the styling side, I used pure CSS. I don't use CSS libraries or frameworks for styling unless necessary. I'm using Contentlayer to make things easier on the backend. To briefly mention it, it is an SDK that converts files written in MDX format to JSON format and provides an API for you to access data. Also, this project is hosted on Github and deployed with Vercel.\r\n\r\n\r\n",
+          "html": "<p>I used my favorite tech stack while developing my personal website. Especially, Next.js makes things easy when developing simple applications with few features like this website. On the styling side, I used pure CSS. I don't use CSS libraries or frameworks for styling unless necessary. I'm using Contentlayer to make things easier on the backend. To briefly mention it, it is an SDK that converts files written in MDX format to JSON format and provides an API for you to access data. Also, this project is hosted on Github and deployed with Vercel.</p>"
+        },
+        "_id": "projects/doganay-dev.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/doganay-dev.mdx",
+          "sourceFileName": "doganay-dev.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/doganay-dev"
+        },
+        "type": "Project",
+        "slug": "doganay-dev",
+        "url": "/projects/doganay-dev"
+      },
+      "documentHash": "1676927459610",
       "hasWarnings": false,
       "documentTypeName": "Project"
     }
