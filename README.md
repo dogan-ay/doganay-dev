@@ -5,9 +5,9 @@
 The project I developed to showcase my blog posts and projects.
 
 ### Tech Stack
-- [React] - Frontend Library
-- [Next.js] - Static Site Generation
-- [Contentlayer] - To write content in MDX format and turn it into API. 
+- React - Frontend Library
+- Next.js - Static Site Generation
+- Contentlayer - To write content in MDX format and turn it into API. 
 
 
 
