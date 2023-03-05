@@ -93,38 +93,6 @@
       "hasWarnings": false,
       "documentTypeName": "Post"
     },
-    "projects/translate-formatter.mdx": {
-      "document": {
-        "title": "Translate Formatter - Chrome Extension",
-        "description": "Delete line spaces in Google Translate!",
-        "date": "2021-12-24T00:00:00.000Z",
-        "tags": [
-          "JavaScript",
-          "CSS",
-          "HTML"
-        ],
-        "img": "translate1.png",
-        "deployment": "https://github.com/dogan-ay/translate-formatter",
-        "body": {
-          "raw": "\r\nThe copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.\r\n\r\n\r\n",
-          "html": "<p>The copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.</p>"
-        },
-        "_id": "projects/translate-formatter.mdx",
-        "_raw": {
-          "sourceFilePath": "projects/translate-formatter.mdx",
-          "sourceFileName": "translate-formatter.mdx",
-          "sourceFileDir": "projects",
-          "contentType": "mdx",
-          "flattenedPath": "projects/translate-formatter"
-        },
-        "type": "Project",
-        "slug": "translate-formatter",
-        "url": "/projects/translate-formatter"
-      },
-      "documentHash": "1676921081377",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
     "projects/doganay-dev.mdx": {
       "document": {
         "title": "Personal Website - doganay.dev",
@@ -156,6 +124,38 @@
         "url": "/projects/doganay-dev"
       },
       "documentHash": "1676927459610",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/translate-formatter.mdx": {
+      "document": {
+        "title": "Translate Formatter - Chrome Extension",
+        "description": "Delete line spaces in Google Translate!",
+        "date": "2021-12-24T00:00:00.000Z",
+        "tags": [
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
+        "img": "translate1.png",
+        "deployment": "https://github.com/dogan-ay/translate-formatter",
+        "body": {
+          "raw": "\r\nThe copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.\r\n\r\n\r\n",
+          "html": "<p>The copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.</p>"
+        },
+        "_id": "projects/translate-formatter.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/translate-formatter.mdx",
+          "sourceFileName": "translate-formatter.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/translate-formatter"
+        },
+        "type": "Project",
+        "slug": "translate-formatter",
+        "url": "/projects/translate-formatter"
+      },
+      "documentHash": "1676921081377",
       "hasWarnings": false,
       "documentTypeName": "Project"
     }

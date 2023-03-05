@@ -189,6 +189,7 @@ h4.dark-title {
 .flex {
     display: flex;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 
@@ -207,6 +208,7 @@ h4.dark-title {
 p.arrow {
     font-size: 1.2rem;
     color: var(--mid-text);
+    line-height: 1rem;
 }
 
 
@@ -410,11 +412,7 @@ article  p {
 }
 
 .blogpost-info {
-    border-left: 5px solid var(--green-color);
-    padding: 0.7rem 1rem;
-    background-color: var(--card-background);
     margin: 1.5rem 0;
-    border-radius: 0.3rem;
     display: flex;
     gap: 1rem;
 }
@@ -490,7 +488,12 @@ p.HTML {
     }
 
     p.post-info {
-        font-size: calc(0.5rem + 1vw)
+        font-size: calc(0.4rem + 1vw)
+    }
+
+    
+    .blogpost-info {
+        gap: 0.5rem;
     }
 
 }
@@ -509,4 +512,21 @@ p.HTML {
     .project-card-content-container {
         width: 100%;
     }
+
+    footer  p {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media screen and (max-width: 310px) {
+
+    .blogpost-info {
+        flex-wrap: wrap;
+        row-gap: 0;
+    }
+
+    footer p {
+        font-size: 0.6rem !important;
+    }
+
 }

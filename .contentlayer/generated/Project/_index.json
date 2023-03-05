@@ -1,32 +1,5 @@
 [
   {
-    "title": "Translate Formatter - Chrome Extension",
-    "description": "Delete line spaces in Google Translate!",
-    "date": "2021-12-24T00:00:00.000Z",
-    "tags": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "img": "translate1.png",
-    "deployment": "https://github.com/dogan-ay/translate-formatter",
-    "body": {
-      "raw": "\r\nThe copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.\r\n\r\n\r\n",
-      "html": "<p>The copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.</p>"
-    },
-    "_id": "projects/translate-formatter.mdx",
-    "_raw": {
-      "sourceFilePath": "projects/translate-formatter.mdx",
-      "sourceFileName": "translate-formatter.mdx",
-      "sourceFileDir": "projects",
-      "contentType": "mdx",
-      "flattenedPath": "projects/translate-formatter"
-    },
-    "type": "Project",
-    "slug": "translate-formatter",
-    "url": "/projects/translate-formatter"
-  },
-  {
     "title": "Personal Website - doganay.dev",
     "description": "This website 🎯",
     "date": "2023-02-20T00:00:00.000Z",
@@ -54,5 +27,32 @@
     "type": "Project",
     "slug": "doganay-dev",
     "url": "/projects/doganay-dev"
+  },
+  {
+    "title": "Translate Formatter - Chrome Extension",
+    "description": "Delete line spaces in Google Translate!",
+    "date": "2021-12-24T00:00:00.000Z",
+    "tags": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "img": "translate1.png",
+    "deployment": "https://github.com/dogan-ay/translate-formatter",
+    "body": {
+      "raw": "\r\nThe copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.\r\n\r\n\r\n",
+      "html": "<p>The copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.</p>"
+    },
+    "_id": "projects/translate-formatter.mdx",
+    "_raw": {
+      "sourceFilePath": "projects/translate-formatter.mdx",
+      "sourceFileName": "translate-formatter.mdx",
+      "sourceFileDir": "projects",
+      "contentType": "mdx",
+      "flattenedPath": "projects/translate-formatter"
+    },
+    "type": "Project",
+    "slug": "translate-formatter",
+    "url": "/projects/translate-formatter"
   }
 ]
