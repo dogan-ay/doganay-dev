@@ -38,7 +38,7 @@ export async function getStaticPaths() {
         <p className='light-text button'>Github ⟶</p>
       </Link>
       <h3>Tech Stack</h3>
-      <div className='flex'>
+      <div className='flex' style={{flexWrap: 'wrap'}}>
         {project.tags.map( tag => <p className={`tech-tag ${tag}`}>{tag}</p>)}
       </div>
     </article>  

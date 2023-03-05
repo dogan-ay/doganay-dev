@@ -189,7 +189,6 @@ h4.dark-title {
 .flex {
     display: flex;
     gap: 0.5rem;
-    flex-wrap: wrap;
 }
 
 
@@ -208,7 +207,7 @@ h4.dark-title {
 p.arrow {
     font-size: 1.2rem;
     color: var(--mid-text);
-    line-height: 1rem;
+    line-height: 1.5rem;
 }
 
 
