@@ -7,7 +7,9 @@ const MoreLink = (props) => {
   return (
     <Link href={link} style={{display: 'inline-block', width: 'min-content'}}>
         <div className='more-button'>
-            <p className='mid-mini-text'>More ⟶</p>
+            <p className='mid-mini-text'>More </p>
+            <p className='arrow'>⟶</p>
+
         </div>
     </Link>
   )
