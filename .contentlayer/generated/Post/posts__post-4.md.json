@@ -1,0 +1,26 @@
+{
+  "title": "Lorem  Post - 4",
+  "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+  "date": "2022-12-31T21:00:00.000Z",
+  "body": {
+    "raw": "lorem ipsum dolor sit amei\r\n\r\n```javascript\r\nvar s = \"JavaScript syntax highlighting\";\r\nalert(s);\r\nexport default function test = (param) => {\r\n    return 'hello world';\r\n}\r\n```\r\n\r\nlorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei\r\n",
+    "html": "<p>lorem ipsum dolor sit amei</p>\n<pre><code class=\"language-javascript\">var s = \"JavaScript syntax highlighting\";\r\nalert(s);\r\nexport default function test = (param) => {\r\n    return 'hello world';\r\n}\n</code></pre>\n<p>lorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei</p>"
+  },
+  "_id": "posts/post-4.md",
+  "_raw": {
+    "sourceFilePath": "posts/post-4.md",
+    "sourceFileName": "post-4.md",
+    "sourceFileDir": "posts",
+    "contentType": "markdown",
+    "flattenedPath": "posts/post-4"
+  },
+  "type": "Post",
+  "slug": "post-4",
+  "url": "/blog/post-4",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.23,
+    "time": 13800,
+    "words": 46
+  }
+}

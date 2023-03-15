@@ -9,19 +9,21 @@ const Navigation = () => {
   const test = () => console.log(typeof path)
 
   return (
-    <nav>
-        <Link href={'/'}>
-            <p className={`nav-item  ${path == '' ? 'nav-active' : 'dark-text'}`}>Home</p>
-            
-        </Link>
-        <Link href={'/blog'}>
-            <p className={`nav-item ${path == 'blog' ? 'nav-active' : 'dark-text'}`}>Blog</p>
-        </Link>
-        <Link href={'/projects'}>
-            <p className={`nav-item ${path == 'projects' ? 'nav-active' : 'dark-text'}`}>Projects</p>
-        </Link>
-        {test()}
-    </nav>
+    <div className='container-width'>
+      <nav>
+          <Link href={'/'}>
+              <p className={`nav-item  ${path == '' ? 'nav-active' : 'dark-text'}`}>Home</p>
+              
+          </Link>
+          <Link href={'/blog'}>
+              <p className={`nav-item ${path == 'blog' ? 'nav-active' : 'dark-text'}`}>Blog</p>
+          </Link>
+          <Link href={'/projects'}>
+              <p className={`nav-item ${path == 'projects' ? 'nav-active' : 'dark-text'}`}>Projects</p>
+          </Link>
+          {test()}
+      </nav>
+    </div>
   )
 }
 

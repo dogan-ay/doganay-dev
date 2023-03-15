@@ -2,6 +2,9 @@ import React from 'react'
 import { format, parseISO } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
 import Meta from '@/components/Meta'
+import hljs from 'highlight.js';
+import { useEffect } from 'react';
+import 'highlight.js/styles/github-dark.css';
 
 export async function getStaticPaths() {
   const paths = allPosts.map((post) => post.url)
@@ -21,6 +24,11 @@ export async function getStaticProps({ params }) {
 }
 
 const blogpost = ({post}) => {
+
+  useEffect(() => {
+    hljs.highlightAll();
+  }, []);
+
   return (
     <>
     <Meta description={post.description} title={post.title} keywords={''}/>

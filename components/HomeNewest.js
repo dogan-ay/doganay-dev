@@ -30,10 +30,12 @@ const HomeNewest = (props) => {
     }, [])
     
   return (
-    <div className='home-newest flex-col'>
-        <p className='green-text'> { category == 'blog' ? '📝 New Posts' : category == 'projects' ? '🔥 New Projects' : null}</p>
-        {contentInit(category, data)}
-        {more}
+    <div className='container-width'>
+      <div className='home-newest flex-col'>
+          <p className='green-text'> { category == 'blog' ? '📝 New Posts' : category == 'projects' ? '🔥 New Projects' : null}</p>
+          {contentInit(category, data)}
+          {more}
+      </div>
     </div>
   )
 }

@@ -123,7 +123,7 @@
         "slug": "doganay-dev",
         "url": "/projects/doganay-dev"
       },
-      "documentHash": "1676927459610",
+      "documentHash": "1678808651224",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
@@ -165,8 +165,8 @@
         "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
         "date": "2022-12-31T21:00:00.000Z",
         "body": {
-          "raw": "\r\n\r\n<script src=\"https://gist.github.com/dogan-ay/6aadba96d8016563ae926f9cd8e77e04.js\"></script>\r\n<script src=\"https://gist.github.com/dogan-ay/6aadba96d8016563ae926f9cd8e77e04.js\"></script>\r\ntest\r\n\r\n<h1>test</h1>\r\n\r\nlorem ipsum dolor\r\n\r\n- test\r\n- test\r\n",
-          "html": "<p>test</p>\n<p>lorem ipsum dolor</p>\n<ul>\n<li>test</li>\n<li>test</li>\n</ul>"
+          "raw": "\r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```",
+          "html": "<pre><code class=\"language-python\">s = \"Python syntax highlighting\"\r\nprint s\n</code></pre>"
         },
         "_id": "posts/post-4.md",
         "_raw": {
@@ -181,13 +181,13 @@
         "url": "/blog/post-4",
         "readingTime": {
           "text": "1 min read",
-          "minutes": 0.065,
-          "time": 3900,
-          "words": 13
+          "minutes": 0.045,
+          "time": 2700,
+          "words": 9
         }
       },
-      "documentHash": "1678806755809",
-      "hasWarnings": false,
+      "documentHash": "1678810453577",
+      "hasWarnings": true,
       "documentTypeName": "Post"
     }
   }

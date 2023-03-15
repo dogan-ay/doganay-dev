@@ -20,8 +20,10 @@ export const Post = defineDocumentType(() => ({
       description: 'The date of the post',
       required: true,
     },
+    
   },
   computedFields: {
+    
     slug: {
       type: "string",
       resolve: (post) => post._raw.sourceFileName.replace(/\.md$/, ""),
@@ -35,7 +37,7 @@ export const Post = defineDocumentType(() => ({
       resolve: (post) => readingTime(post.body.raw),
     },
   },
-}))
+})) 
 
 
 export const Project = defineDocumentType(() => ({

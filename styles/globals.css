@@ -1,22 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 
 @font-face {
-    font-family: 'Futura';
+    font-family: 'futura';
     src: url('/futura.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Firacode';
+    src: url('/firacode.ttf') format('truetype');
+}
+
+
 :root {
     /* Text Colors */
-    --light-text: #F5F5F5;
-    --dark-text: #A1A1AA;
-    --mid-text: #DDDDDD;
+    --light-text: #ECEFF4;
+    --dark-text: #D8DEE9;
+    --mid-text: #E5E9F0;
     /* Theme Colors */
-    --green-color: #398C6F;
-    --background-color: #171717;
-    --card-background: #1E1E1E;
+    --green-color: #88C0D0;
+    --background-color: var(--nord0);
+    --card-background: var(--nord1);
     /* Size */
     --small-text: 0.875rem;
     --mini-text: 0.65rem;
+
+    /* Theme Colors */
+
+    --darknord:#242933;
+    --nord0: #2E3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+
+
 }
 
 /* Reset CSS */
@@ -93,7 +109,7 @@ img {
 
 h1 {
     font-size: 2.25rem;
-    font-weight: 400;
+    font-weight: 500;
     color: white;
 }
 
@@ -119,6 +135,14 @@ p {
     font-size: 1rem;
 }
 
+code {
+    font-family: Firacode;
+    line-height: 1.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
 /* Reusable Classes */
 
 .container {
@@ -127,6 +151,19 @@ p {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+.container-components {
+    max-width: 45rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-width {
+    max-width: 45rem;
+    margin: 0 auto;
+
 }
 
 h1.home-title {
@@ -181,6 +218,11 @@ h4.dark-title {
     color: var(--mid-text);
 }
 
+h3.bold{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
 .flex-col {
     display: flex;
     flex-direction: column;
@@ -201,7 +243,7 @@ h4.dark-title {
 .dark-line {
     height: 1px;
     width: 8rem;
-    background-color: #333333;
+    background-color: #5E81AC;
 }
 
 p.arrow {
@@ -257,6 +299,8 @@ nav {
     gap: 1rem;
     padding: 1.5rem 0;
     margin-right: 2rem;
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -291,6 +335,7 @@ footer {
 .home-personal {
     margin: 5rem 0;
     gap: 1.5rem;
+    padding-top: 2.5rem;
 }
 
 .personal-links {
@@ -299,6 +344,7 @@ footer {
     gap: 1vw;
     margin: 0 auto;
     padding-top: 3rem;
+   
 }
 
 .personal-links-icon {
@@ -308,6 +354,9 @@ footer {
 
 .blog-post-card {
     gap: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0px 2px 5px 0px var(--darknord);
+    border-radius: 0.6rem;
 }
 
 .effect {
@@ -336,7 +385,6 @@ footer {
 
 .home-newest {
     gap: 2.5rem;
-    margin-bottom: 3rem;
 }
 
 .project-card {
@@ -528,4 +576,79 @@ p.HTML {
         font-size: 0.6rem !important;
     }
 
+}
+
+.custom-shape-divider-bottom-1678826675 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678826675 svg {
+    position: relative;
+    display: block;
+    width: calc(115% + 1.3px);
+    height: 40px;
+
+}
+
+.custom-shape-divider-bottom-1678826675 .shape-fill {
+    fill: var(--background-color);
+}
+
+.bg-1 {
+    position: relative;
+    background-color: var(--darknord);
+    top: -5rem;
+}
+
+.bg-2 {
+    position: relative;
+    background-color: var(--darknord);
+    padding: 5rem 0;
+}
+
+
+.custom-shape-divider-top-1678830459 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1678830459 svg {
+    position: relative;
+    display: block;
+    width: calc(115% + 1.3px);
+    height: 30px;
+}
+
+.custom-shape-divider-top-1678830459 .shape-fill {
+    fill: var(--background-color);
+}
+
+.custom-shape-divider-bottom-1678830920 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1678830920 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 49px;
+}
+
+.custom-shape-divider-bottom-1678830920 .shape-fill {
+    fill: var(--background-color);
 }
