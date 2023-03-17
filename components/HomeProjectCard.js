@@ -18,10 +18,10 @@ const HomeProjectCard = (props) => {
                 {
                     tags.map(tag => {
                         if (tags.indexOf(tag) < tags.length -1) {
-                            return [<p className='mid-text effect'>{tag} </p>, <p className='mid-text effect'>·</p>]
+                            return [<p className='dark-text effect'>{tag} </p>, <p className='dark-text effect'>·</p>]
 
                         } else {
-                            return <p className='mid-text effect'>{tag}</p>
+                            return <p className='dark-text effect'>{tag}</p>
 
                         }
                     })

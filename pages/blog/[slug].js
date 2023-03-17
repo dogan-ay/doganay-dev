@@ -4,7 +4,7 @@ import { allPosts } from 'contentlayer/generated'
 import Meta from '@/components/Meta'
 import hljs from 'highlight.js';
 import { useEffect } from 'react';
-import 'highlight.js/styles/github-dark.css';
+import 'highlight.js/styles/nord.css';
 
 export async function getStaticPaths() {
   const paths = allPosts.map((post) => post.url)

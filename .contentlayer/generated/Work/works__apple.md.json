@@ -1,0 +1,22 @@
+{
+  "title": "Apple",
+  "works": [
+    "first",
+    "second"
+  ],
+  "startDate": "2019-12-31T21:00:00.000Z",
+  "endDate": "2020-02-01T21:00:00.000Z",
+  "body": {
+    "raw": "deneme",
+    "html": "<p>deneme</p>"
+  },
+  "_id": "works/apple.md",
+  "_raw": {
+    "sourceFilePath": "works/apple.md",
+    "sourceFileName": "apple.md",
+    "sourceFileDir": "works",
+    "contentType": "markdown",
+    "flattenedPath": "works/apple"
+  },
+  "type": "Work"
+}

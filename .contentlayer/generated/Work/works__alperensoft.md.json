@@ -1,0 +1,21 @@
+{
+  "title": "Microsoft",
+  "works": [
+    "first",
+    "second"
+  ],
+  "startDate": "2021-12-31T21:00:00.000Z",
+  "body": {
+    "raw": "deneme",
+    "html": "<p>deneme</p>"
+  },
+  "_id": "works/alperensoft.md",
+  "_raw": {
+    "sourceFilePath": "works/alperensoft.md",
+    "sourceFileName": "alperensoft.md",
+    "sourceFileDir": "works",
+    "contentType": "markdown",
+    "flattenedPath": "works/alperensoft"
+  },
+  "type": "Work"
+}

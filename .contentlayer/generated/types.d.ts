@@ -44,6 +44,23 @@ export type Project = {
   body: Markdown
   slug: string
   url: string
+}
+
+export type Work = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Work'
+  /** The title of the post */
+  title: string
+  works: string[]
+  /** The date of the post */
+  startDate: IsoDateTimeString
+  /** The date of the post */
+  endDate?: IsoDateTimeString | undefined
+  /** Markdown file body */
+  body: Markdown
+
 }  
 
 /** Nested types */
@@ -54,8 +71,8 @@ export type Project = {
 export type AllTypes = DocumentTypes | NestedTypes
 export type AllTypeNames = DocumentTypeNames | NestedTypeNames
 
-export type DocumentTypes = Post | Project
-export type DocumentTypeNames = 'Post' | 'Project'
+export type DocumentTypes = Post | Project | Work
+export type DocumentTypeNames = 'Post' | 'Project' | 'Work'
 
 export type NestedTypes = never
 export type NestedTypeNames = never
@@ -78,6 +95,7 @@ declare global {
 export type DocumentTypeMap = {
   Post: Post
   Project: Project
+  Work: Work
 }
 
 export type NestedTypeMap = {

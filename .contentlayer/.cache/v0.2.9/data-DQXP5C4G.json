@@ -1,0 +1,302 @@
+{
+  "cacheItemsMap": {
+    "posts/post-1.md": {
+      "document": {
+        "title": "Lorem  Post - 1",
+        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+        "date": "2021-03-23T21:00:00.000Z",
+        "body": {
+          "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>"
+        },
+        "_id": "posts/post-1.md",
+        "_raw": {
+          "sourceFilePath": "posts/post-1.md",
+          "sourceFileName": "post-1.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/post-1"
+        },
+        "type": "Post",
+        "slug": "post-1",
+        "url": "/blog/post-1",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.225,
+          "time": 13500,
+          "words": 45
+        }
+      },
+      "documentHash": "1673981339439",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/post-2.md": {
+      "document": {
+        "title": "Lorem  Post - 2",
+        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+        "date": "2021-02-23T21:00:00.000Z",
+        "body": {
+          "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>"
+        },
+        "_id": "posts/post-2.md",
+        "_raw": {
+          "sourceFilePath": "posts/post-2.md",
+          "sourceFileName": "post-2.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/post-2"
+        },
+        "type": "Post",
+        "slug": "post-2",
+        "url": "/blog/post-2",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.225,
+          "time": 13500,
+          "words": 45
+        }
+      },
+      "documentHash": "1673981332667",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/post-3.md": {
+      "document": {
+        "title": "Lorem  Post - 3",
+        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+        "date": "2022-12-31T21:00:00.000Z",
+        "body": {
+          "raw": "\r\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n\r\nLorem ipsum dolor sit amei. Irure elit proident consequat veniam minim ipsum ex\r\npariatur. Irure elit proident consequat veniam minim ipsum ex pariatur.Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n\r\n- test\r\n- test\r\n\r\n\r\n## Tech Stack\r\n  - JavaScript, React, Next.js\r\n  - HTML, CSS\r\n\r\n  ![Screenshot](https://github.com/dogan-ay/translatezen/blob/master/public/translatezen.png)\r\n\r\n\r\nLorem ipsum dolor sit amei. Irure elit proident consequat veniam minim ipsum ex\r\npariatur. Irure elit proident consequat veniam minim ipsum ex pariatur.Irure elit proident consequat veniam minim ipsum ex\r\npariatur.\r\n\r\nInline `code` has `back-ticks around` it.\r\n\r\n<script src=\"https://gist.github.com/dogan-ay/6aadba96d8016563ae926f9cd8e77e04.js\"></script>\r\n<script src=\"https://gist.github.com/dogan-ay/6aadba96d8016563ae926f9cd8e77e04.js\"></script>\r\ntest\r\n\r\n<h1>test</h1>",
+          "html": "<p>Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\r\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\r\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\r\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>\n<p>Lorem ipsum dolor sit amei. Irure elit proident consequat veniam minim ipsum ex\r\npariatur. Irure elit proident consequat veniam minim ipsum ex pariatur.Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>\n<ul>\n<li>test</li>\n<li>test</li>\n</ul>\n<h2>Tech Stack</h2>\n<ul>\n<li>JavaScript, React, Next.js</li>\n<li>HTML, CSS</li>\n</ul>\n<p><img src=\"https://github.com/dogan-ay/translatezen/blob/master/public/translatezen.png\" alt=\"Screenshot\"></p>\n<p>Lorem ipsum dolor sit amei. Irure elit proident consequat veniam minim ipsum ex\r\npariatur. Irure elit proident consequat veniam minim ipsum ex pariatur.Irure elit proident consequat veniam minim ipsum ex\r\npariatur.</p>\n<p>Inline <code>code</code> has <code>back-ticks around</code> it.</p>\n<p>test</p>"
+        },
+        "_id": "posts/post-3.md",
+        "_raw": {
+          "sourceFilePath": "posts/post-3.md",
+          "sourceFileName": "post-3.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/post-3"
+        },
+        "type": "Post",
+        "slug": "post-3",
+        "url": "/blog/post-3",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.67,
+          "time": 40200,
+          "words": 134
+        }
+      },
+      "documentHash": "1678804700538",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/post-4.md": {
+      "document": {
+        "title": "Lorem  Post - 4",
+        "description": "Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum.",
+        "date": "2022-12-31T21:00:00.000Z",
+        "body": {
+          "raw": "lorem ipsum dolor sit amei\r\n\r\n```javascript\r\nvar s = \"JavaScript syntax highlighting\";\r\nalert(s);\r\nexport default function test = (param) => {\r\n    return 'hello world';\r\n}\r\n```\r\n\r\nlorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei\r\n",
+          "html": "<p>lorem ipsum dolor sit amei</p>\n<pre><code class=\"language-javascript\">var s = \"JavaScript syntax highlighting\";\r\nalert(s);\r\nexport default function test = (param) => {\r\n    return 'hello world';\r\n}\n</code></pre>\n<p>lorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei\r\nlorem ipsum dolor sit amei</p>"
+        },
+        "_id": "posts/post-4.md",
+        "_raw": {
+          "sourceFilePath": "posts/post-4.md",
+          "sourceFileName": "post-4.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/post-4"
+        },
+        "type": "Post",
+        "slug": "post-4",
+        "url": "/blog/post-4",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.23,
+          "time": 13800,
+          "words": 46
+        }
+      },
+      "documentHash": "1678818183587",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "projects/doganay-dev.mdx": {
+      "document": {
+        "title": "Personal Website - doganay.dev",
+        "description": "This website 🎯",
+        "date": "2023-02-20T00:00:00.000Z",
+        "tags": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
+        "img": "dogandev.png",
+        "deployment": "https://github.com/dogan-ay/doganay-dev",
+        "body": {
+          "raw": "\r\nI used my favorite tech stack while developing my personal website. Especially, Next.js makes things easy when developing simple applications with few features like this website. On the styling side, I used pure CSS. I don't use CSS libraries or frameworks for styling unless necessary. I'm using Contentlayer to make things easier on the backend. To briefly mention it, it is an SDK that converts files written in MDX format to JSON format and provides an API for you to access data. Also, this project is hosted on Github and deployed with Vercel.\r\n\r\n\r\n",
+          "html": "<p>I used my favorite tech stack while developing my personal website. Especially, Next.js makes things easy when developing simple applications with few features like this website. On the styling side, I used pure CSS. I don't use CSS libraries or frameworks for styling unless necessary. I'm using Contentlayer to make things easier on the backend. To briefly mention it, it is an SDK that converts files written in MDX format to JSON format and provides an API for you to access data. Also, this project is hosted on Github and deployed with Vercel.</p>"
+        },
+        "_id": "projects/doganay-dev.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/doganay-dev.mdx",
+          "sourceFileName": "doganay-dev.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/doganay-dev"
+        },
+        "type": "Project",
+        "slug": "doganay-dev",
+        "url": "/projects/doganay-dev"
+      },
+      "documentHash": "1678808651224",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/translate-formatter.mdx": {
+      "document": {
+        "title": "Translate Formatter - Chrome Extension",
+        "description": "Delete line spaces in Google Translate!",
+        "date": "2021-12-24T00:00:00.000Z",
+        "tags": [
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
+        "img": "translate1.png",
+        "deployment": "https://github.com/dogan-ay/translate-formatter",
+        "body": {
+          "raw": "\r\nThe copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.\r\n\r\n\r\n",
+          "html": "<p>The copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.</p>"
+        },
+        "_id": "projects/translate-formatter.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/translate-formatter.mdx",
+          "sourceFileName": "translate-formatter.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/translate-formatter"
+        },
+        "type": "Project",
+        "slug": "translate-formatter",
+        "url": "/projects/translate-formatter"
+      },
+      "documentHash": "1676921081377",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "works/test.md": {
+      "document": {
+        "title": "Alperensoft",
+        "works": [
+          "first",
+          "second"
+        ],
+        "startDate": "2022",
+        "endDate": "2003",
+        "body": {
+          "raw": "test",
+          "html": "<p>test</p>"
+        },
+        "_id": "works/test.md",
+        "_raw": {
+          "sourceFilePath": "works/test.md",
+          "sourceFileName": "test.md",
+          "sourceFileDir": "works",
+          "contentType": "markdown",
+          "flattenedPath": "works/test"
+        },
+        "type": "Work"
+      },
+      "documentHash": "1679092883407",
+      "hasWarnings": false,
+      "documentTypeName": "Work"
+    },
+    "works/alperensoft.md": {
+      "document": {
+        "title": "Microsoft",
+        "works": [
+          "first",
+          "second"
+        ],
+        "startDate": "2022",
+        "endDate": "2023",
+        "body": {
+          "raw": "deneme",
+          "html": "<p>deneme</p>"
+        },
+        "_id": "works/alperensoft.md",
+        "_raw": {
+          "sourceFilePath": "works/alperensoft.md",
+          "sourceFileName": "alperensoft.md",
+          "sourceFileDir": "works",
+          "contentType": "markdown",
+          "flattenedPath": "works/alperensoft"
+        },
+        "type": "Work"
+      },
+      "documentHash": "1679092928243",
+      "hasWarnings": false,
+      "documentTypeName": "Work"
+    },
+    "works/apple.md": {
+      "document": {
+        "title": "Apple",
+        "works": [
+          "first",
+          "second"
+        ],
+        "startDate": "2022",
+        "endDate": "2023",
+        "body": {
+          "raw": "deneme",
+          "html": "<p>deneme</p>"
+        },
+        "_id": "works/apple.md",
+        "_raw": {
+          "sourceFilePath": "works/apple.md",
+          "sourceFileName": "apple.md",
+          "sourceFileDir": "works",
+          "contentType": "markdown",
+          "flattenedPath": "works/apple"
+        },
+        "type": "Work"
+      },
+      "documentHash": "1679092964715",
+      "hasWarnings": false,
+      "documentTypeName": "Work"
+    },
+    "works/zzz.md": {
+      "document": {
+        "title": "ZZZS",
+        "works": [
+          "first",
+          "second"
+        ],
+        "startDate": "2022",
+        "endDate": "2003",
+        "body": {
+          "raw": "test",
+          "html": "<p>test</p>"
+        },
+        "_id": "works/zzz.md",
+        "_raw": {
+          "sourceFilePath": "works/zzz.md",
+          "sourceFileName": "zzz.md",
+          "sourceFileDir": "works",
+          "contentType": "markdown",
+          "flattenedPath": "works/zzz"
+        },
+        "type": "Work"
+      },
+      "documentHash": "1679093329717",
+      "hasWarnings": false,
+      "documentTypeName": "Work"
+    }
+  }
+}

@@ -3,7 +3,6 @@ import PersonalLinks from './PersonalLinks'
 
 const HomePersonal = () => {
   return (
-    <div className='container-components'>
       <div className='home-personal flex-col '>
           <h1 className='home-title'>
               Hi, I am Doğan
@@ -17,7 +16,6 @@ const HomePersonal = () => {
           <PersonalLinks/>
         
       </div>
-    </div>
   )
 }
 

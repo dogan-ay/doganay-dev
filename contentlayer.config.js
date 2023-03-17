@@ -84,8 +84,35 @@ export const Project = defineDocumentType(() => ({
   
 }))
 
+export const Work = defineDocumentType(() => ({
+  name: 'Work',
+  filePathPattern: `/works/**/*.md`,
+  fields: {
+    title: {
+      type: 'string',
+      description: 'The title of the post',
+      required: true,
+    },
+    works: {
+      type: 'list',
+      of: { type: 'string' },
+      required: true
+    },
+    startDate: {
+      type: 'date',
+      description: 'The date of the post',
+      required: true,
+    },
+    endDate: {
+      type: 'date',
+      description: 'The date of the post',
+    },
+    
+  }
+}))
+
 export default makeSource({
   contentDirPath: 'content',
-  documentTypes: [Post, Project],
+  documentTypes: [Post, Project, Work],
 })
 

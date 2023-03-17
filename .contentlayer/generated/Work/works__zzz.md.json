@@ -1,0 +1,22 @@
+{
+  "title": "Tesla",
+  "works": [
+    "Lorem ipsum dolor amei sit. L orem ipsum dolor amei sit. L orem ipsum dolor amei sit. L orem ipsum dolor amei sit.",
+    "L orem ipsum dolor amei sit. L orem ipsum dolor amei sit.L orem ipsum dolor amei sit."
+  ],
+  "startDate": "2024-12-31T21:00:00.000Z",
+  "endDate": "2025-12-31T21:00:00.000Z",
+  "body": {
+    "raw": "test",
+    "html": "<p>test</p>"
+  },
+  "_id": "works/zzz.md",
+  "_raw": {
+    "sourceFilePath": "works/zzz.md",
+    "sourceFileName": "zzz.md",
+    "sourceFileDir": "works",
+    "contentType": "markdown",
+    "flattenedPath": "works/zzz"
+  },
+  "type": "Work"
+}

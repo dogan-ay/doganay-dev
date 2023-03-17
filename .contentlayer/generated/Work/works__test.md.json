@@ -1,0 +1,22 @@
+{
+  "title": "Alperensoft",
+  "works": [
+    "first",
+    "second"
+  ],
+  "startDate": "2002-01-01T22:00:00.000Z",
+  "endDate": "2005-01-02T22:00:00.000Z",
+  "body": {
+    "raw": "test",
+    "html": "<p>test</p>"
+  },
+  "_id": "works/test.md",
+  "_raw": {
+    "sourceFilePath": "works/test.md",
+    "sourceFileName": "test.md",
+    "sourceFileDir": "works",
+    "contentType": "markdown",
+    "flattenedPath": "works/test"
+  },
+  "type": "Work"
+}
