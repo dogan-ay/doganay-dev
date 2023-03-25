@@ -1,18 +1,18 @@
 import React from 'react'
 import PersonalLinks from './PersonalLinks'
+import Link from 'next/link'
 
 const HomePersonal = () => {
   return (
       <div className='home-personal flex-col '>
-          <h1 className='home-title'>
-              Hi, I am Doğan
-          </h1>
-          <h2>
-              I buid software
-          </h2>
-          <p className='dark-text'>
-            I am a curious and passionate software developer working in the field of web technologies.
-          </p>
+          <div className='hero-section flex'>
+            <div className='hero-img'></div>
+            <div className='hero-details flex-col'>
+            <p className='dark-text'>Personal website by&nbsp;
+              <Link href={'/'}>Doğan Ay Şengül</Link>. <br/>
+              I make software and I love writing.</p>
+            </div>
+          </div>
           <PersonalLinks/>
         
       </div>

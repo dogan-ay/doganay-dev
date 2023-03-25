@@ -17,7 +17,7 @@ const BlogPostCard = (props) => {
         <p className='date' dateTime={data.date}>
             {format(parseISO(date), 'LLLL d, yyyy')}
         </p>
-        <h3 className='bold'>{title}</h3>
+        <h3 className='bold effect'>{title}</h3>
 
         <p className='dark-text effect'>{content}</p>
         </div>

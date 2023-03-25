@@ -7,9 +7,23 @@ export const Work = (props) => {
     const [active, setActive] = useState(data[0]);
     return(
         <>
-        <p className="frost-text" style={{marginBottom: '2rem'}}>🚀 Where I've Worked</p>
-        <div className="flex work-container"> {console.log(data)}
+        <p className="frost-text frost-web" style={{marginBottom: '2rem'}}>🚀 Where I've Worked</p>
+        <div className="flex work-container"> 
             <div className="flex-col work-tabs">
+                <ul className="works-web">
+                    {
+                        data?.map((work) => (
+                            <li className={`${work.title == active.title ? 'active-work' : ''}`} 
+                            onClick={() =>( setActive(work))}
+                            ><p className="dark-text">{work.title}</p></li>
+                        ))
+                    }
+                </ul>
+                <details className="works-mobile">
+                <summary>
+                <p className="frost-text frost-mobile">🚀 Where I've Worked</p>
+
+                </summary>
                 <ul>
                     {
                         data?.map((work) => (
@@ -19,7 +33,10 @@ export const Work = (props) => {
                         ))
                     }
                 </ul>
+
+            </details>
             </div>
+            
             <div className="work-details">
                 <h2>{active.title}</h2>
                <span className="flex">

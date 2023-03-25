@@ -14,7 +14,7 @@ const HomeProjectCard = (props) => {
         <div className='project-card card-effect flex-col'>
         <h4 className='mid-title effect'>{title}</h4>
         <div className='home-project-content flex-col effect'>
-            <div className='flex' style={{flexWrap: 'wrap'}}>
+            <div className='flex home-project-tag' style={{flexWrap: 'wrap'}}>
                 {
                     tags.map(tag => {
                         if (tags.indexOf(tag) < tags.length -1) {

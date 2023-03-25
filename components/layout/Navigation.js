@@ -6,11 +6,11 @@ const Navigation = () => {
   const router = useRouter();
   let path = router.asPath.split('/')
   path = path[1]
-  const test = () => console.log(typeof path)
 
-  return (
-    <div className='container-width'>
+  return ( 
+   
       <nav>
+        <></>
           <Link href={'/'}>
               <p className={`nav-item  ${path == '' ? 'nav-active' : 'dark-text'}`}>Home</p>
               
@@ -21,9 +21,7 @@ const Navigation = () => {
           <Link href={'/projects'}>
               <p className={`nav-item ${path == 'projects' ? 'nav-active' : 'dark-text'}`}>Projects</p>
           </Link>
-          {test()}
       </nav>
-    </div>
   )
 }
 

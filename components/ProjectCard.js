@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 import { useState } from 'react';
 import MoreLink from './MoreLink';
-
+ 
 const ProjectCard = (props) => {
     const data = props.data;
 
