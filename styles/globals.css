@@ -608,7 +608,7 @@ p.HTML {
 
     .project-card-content-container {
         width: 100%;
-    }
+    } 
 
     footer  p {
         font-size: 0.8rem !important;
@@ -624,22 +624,32 @@ p.HTML {
     }
 
     .work-container {
-        flex-direction: column;
         position: relative;
         justify-content: flex-start !important;
+        gap: 2rem;
     }
 
     .work-details {
         width: auto !important;
-        margin-top: 1rem;
     }
 
-    .works-web {
-        display: none;
+    .work-details ul li {
+        font-size: 0.8rem !important;
+    }
+
+    .work-details span p {
+        font-size: 0.6rem !important;
+    }
+
+    .work-tabs {
+        max-width: 7rem !important;
+    }
+
+    .work-tabs li {
+        padding: 0.5rem !important;
     }
 
     .works-mobile {
-        display: block !important;
     }
 
     .works-mobile summary {
@@ -663,7 +673,6 @@ p.HTML {
     }
 
     .frost-web {
-        display: none;
     }
 }
 
