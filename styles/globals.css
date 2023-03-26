@@ -633,6 +633,8 @@ p.HTML {
         width: auto !important;
     }
 
+   
+
     .work-details ul li {
         font-size: 0.8rem !important;
     }
@@ -649,31 +651,9 @@ p.HTML {
         padding: 0.5rem !important;
     }
 
-    .works-mobile {
-    }
+   
 
-    .works-mobile summary {
-        margin-bottom: 1rem;
-    }
-
-    .works-mobile summary::marker {
-        content: '';
-    }
-
-    .frost-mobile::after {
-        content: url('/icons/angle.svg');
-        position: absolute;
-       top: -0.4rem;
-       transition: 0.2s;
-       padding-left: 0.5rem;
-    }
-
-    details[open].works-mobile p.frost-mobile::after {
-        transform: rotate(180deg);
-    }
-
-    .frost-web {
-    }
+   
 }
 
 @media screen and (max-width: 310px) {
@@ -706,8 +686,8 @@ p.HTML {
     }
 
     .hero-img {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     .hero-details {
@@ -722,8 +702,9 @@ p.HTML {
 
 .work-container {
     justify-content: space-between;
-    min-height: 15rem;
+    
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .work-tabs {
@@ -786,4 +767,17 @@ li.active-work  p{
 
 .work-details h2 {
     color: var(--dark-text);
+    font-size: 1.5rem !important;
+    line-height: 2rem;
+
+}
+
+.work-details a {
+    color: var(--frost3);
+}
+
+p.work-company {
+    color: var(--dark-text);
+    font-size: 1.1rem;
+    font-weight: 600;
 }

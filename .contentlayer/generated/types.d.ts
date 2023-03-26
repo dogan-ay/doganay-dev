@@ -52,12 +52,13 @@ export type Work = {
   _raw: Local.RawDocumentData
   type: 'Work'
   /** The title of the post */
-  title: string
+  company: string
   works: string[]
   /** The date of the post */
   startDate: IsoDateTimeString
   /** The date of the post */
   endDate?: IsoDateTimeString | undefined
+  title?: string | undefined
   /** Markdown file body */
   body: Markdown
 

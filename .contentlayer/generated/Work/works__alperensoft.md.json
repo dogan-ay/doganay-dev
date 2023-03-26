@@ -1,10 +1,10 @@
 {
-  "title": "Microsoft",
+  "company": "Alperensoft",
   "works": [
-    "first",
-    "second"
+    "Frontend Developer Intern"
   ],
-  "startDate": "2021-12-31T21:00:00.000Z",
+  "startDate": "2022-10-04T21:00:00.000Z",
+  "title": "Frontend Developer",
   "body": {
     "raw": "deneme",
     "html": "<p>deneme</p>"

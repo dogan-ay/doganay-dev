@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { format, parseISO } from 'date-fns'
+import Link from "next/link";
+
 
 export const Work = (props) => {
 
@@ -13,32 +15,17 @@ export const Work = (props) => {
                 <ul className="works-web">
                     {
                         data?.map((work) => (
-                            <li className={`${work.title == active.title ? 'active-work' : ''}`} 
+                            <li className={`${work.company == active.company ? 'active-work' : ''}`} 
                             onClick={() =>( setActive(work))}
-                            ><p className="dark-text">{work.title}</p></li>
+                            ><p className="dark-text">{work.company}</p></li>
                         ))
                     }
                 </ul>
-                <details className="works-mobile">
-                <summary>
-                <p className="frost-text frost-mobile">🚀 Where I've Worked</p>
-
-                </summary>
-                <ul>
-                    {
-                        data?.map((work) => (
-                            <li className={`${work.title == active.title ? 'active-work' : ''}`} 
-                            onClick={() =>( setActive(work))}
-                            ><p className="dark-text">{work.title}</p></li>
-                        ))
-                    }
-                </ul>
-
-            </details>
+                
             </div>
             
             <div className="work-details">
-                <h2>{active.title}</h2>
+                <h2>{active.title} <Link href="/">@ {active.company}</Link></h2>
                <span className="flex">
                     <p className='dark-text' dateTime={active.startDate}>
                             {format(parseISO(active.startDate), 'LLLL  yyyy')} -

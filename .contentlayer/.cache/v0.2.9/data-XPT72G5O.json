@@ -192,11 +192,12 @@
     },
     "works/alperensoft.md": {
       "document": {
-        "title": "Alperensoft",
+        "company": "Alperensoft",
         "works": [
           "Frontend Developer Intern"
         ],
         "startDate": "2022-10-04T21:00:00.000Z",
+        "title": "Frontend Developer",
         "body": {
           "raw": "deneme",
           "html": "<p>deneme</p>"
@@ -211,7 +212,7 @@
         },
         "type": "Work"
       },
-      "documentHash": "1679780092247",
+      "documentHash": "1679780594612",
       "hasWarnings": false,
       "documentTypeName": "Work"
     }

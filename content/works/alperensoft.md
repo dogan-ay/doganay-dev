@@ -1,9 +1,9 @@
 ---
-title: Microsoft
+company: Alperensoft
+title: Frontend Developer
 works: 
-    - first
-    - second
-startDate: 2022-1-1
+    - Frontend Developer Intern
+startDate: 2022-10-5
 type: Work
 ---
 deneme

@@ -88,7 +88,7 @@ export const Work = defineDocumentType(() => ({
   name: 'Work',
   filePathPattern: `/works/**/*.md`,
   fields: {
-    title: {
+    company: {
       type: 'string',
       description: 'The title of the post',
       required: true,
@@ -107,6 +107,9 @@ export const Work = defineDocumentType(() => ({
       type: 'date',
       description: 'The date of the post',
     },
+    title: {
+      type: 'string'
+    }
     
   }
 }))
