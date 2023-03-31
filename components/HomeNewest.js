@@ -9,12 +9,14 @@ const HomeNewest = (props) => {
     const [data, setData] = useState(props.data);
     const [category, setCategory] = useState(props.category);
     const more = props.more == 'link' ? <MoreLink link={props.link}/> : props.more == 'button' ? <MoreButton/> : null;
+    const homePage = props.homePage ?? false;
+
     const contentInit = (category, data) => {
         const content = []
 
         data?.map(item => (
          category == 'blog' ? 
-         content.push(<BlogPostCard data={item}/>)  : 
+         content.push(<BlogPostCard new={content.length <= 1 ? true : false} data={item}/>)  : 
          category == 'projects' ? 
          content.push(<HomeProjectCard data={item}/>) : 
          null
@@ -24,16 +26,11 @@ const HomeNewest = (props) => {
 
     }
     
-    useEffect(() => {
-    
-        console.log(data, typeof data)
-    }, [])
-    
   return (
       <div className='home-newest flex-col'>
           <p className='frost-text'> { category == 'blog' ? '📝 Latest Articles' : category == 'projects' ? '🔥 Side Projects' : null}</p>
           {contentInit(category, data)}
-          {more}
+          {more} {console.log(homePage)}
       </div>
   )
 }

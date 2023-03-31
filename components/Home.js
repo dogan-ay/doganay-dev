@@ -11,7 +11,7 @@ const Home = (props) => {
   return (
     <div>
         <HomePersonal/>       
-        <HomeNewest more={'link'} link={'/blog'} data={blogData} category={'blog'} />   
+        <HomeNewest more={'link'} link={'/blog'} data={blogData} category={'blog'}/>   
         <HomeNewest more={'link'} link={'/projects'} data={projectsData} category={'projects'} />
         <Work data={workData} />
     </div>

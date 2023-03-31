@@ -201,6 +201,7 @@ p.date {
     font-size: var(--mini-text);
     position: relative;
     left: -1rem;
+    line-height: 0.5rem;
 }
 
 
@@ -247,23 +248,24 @@ h3.bold{
     background-color: #88c0d07c;
 }
 
-p.arrow {
-    font-size: 1.2rem;
+.arrow {
+    width: 1.8rem;
+    height: 1.5rem;
 }
 
 
 .more-button {
-    display: inline-flex;
-    gap: 0.5rem;
+    display: flex;
+    width: 4rem;
     align-items: center;
+    justify-content: center;
     transition: 0.1s;
-    border-radius: 0.3rem;
-    padding: 0.3rem 0;
-    padding: 1rem 1rem;
+    border-radius: 0.4rem;
+    padding: 1rem 0.8rem;
     line-height: 0;
     color: var(--frost2) !important;
     border: 1px solid var(--nord1);
-
+    text-align: center;
 
 
 }
@@ -303,7 +305,6 @@ nav {
     justify-content: flex-end;
     gap: 1rem;
     padding: 1.5rem 0;
-    margin-right: 2rem;
     position: relative;
     z-index: 2;
 }
@@ -381,6 +382,25 @@ footer {
 .personal-links-icon {
     display: flex;
     gap: 0.5rem;
+}
+
+article.home-article {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.new-post-tag {
+    display: flex;
+    align-items: center;
+}
+
+.new-post-tag p{
+    color: #84e4ff;
+    background-color: #00c8ff11 ;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+    border-radius: 0.4rem;
 }
 
 .blog-post-card {
@@ -499,11 +519,11 @@ footer {
 
 /* Blogpost Styles */
 
-article {
+article.post-article {
     margin-top: 2rem;
 }
 
-article  p {
+article.post-article  p {
     color: var(--mid-text);
     line-height: 1.4rem;
 }
@@ -539,22 +559,22 @@ p.tech-tag {
 }
 
 p.CSS {
-    color: #016fb9;
+    color: #016fb9 !important;
     border-color: #016fb9;
 }
 
 p.JavaScript {
-    color: #f7de1f;
+    color: #f7de1f !important;
     border-color: #f7de1f;
 }
 
 p.React {
-    color: #55cef0;
+    color: #55cef0 !important;
     border-color: #55cef0;
 }
 
 p.HTML {
-    color: #e44a24;
+    color: #e44a24 !important;
     border-color: #e44a24;
     
 }
@@ -774,10 +794,11 @@ li.active-work  p{
 
 .work-details a {
     color: var(--frost3);
+    font-size: 1.2rem;
 }
 
 p.work-company {
     color: var(--dark-text);
     font-size: 1.1rem;
     font-weight: 600;
-}
+} 

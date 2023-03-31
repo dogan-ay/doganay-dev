@@ -32,7 +32,7 @@ const blogpost = ({post}) => {
   return (
     <>
     <Meta description={post.description} title={post.title} keywords={''}/>
-    <article>
+    <article className='post-article'>
       <h2>{post.title}</h2>
       <div className='blogpost-info'>
         <p className='post-info'>✏️ Doğan Ay Şengül</p>

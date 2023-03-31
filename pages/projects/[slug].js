@@ -28,7 +28,7 @@ export async function getStaticPaths() {
   return (
     <>
     <Meta description={project.description} title={project.title} keywords={''}/>
-    <article className='project'>
+    <article className='project post-article'>
       <h2>{project.title}</h2>
       <div className="light-text mdx-body" dangerouslySetInnerHTML={{ __html: project.body.html }}></div>
       <h3>Screenshots</h3>
