@@ -145,7 +145,7 @@ code {
     line-height: 1.5rem;
     border-radius: 0.4rem;
     font-size: 0.8rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0 1.5rem 0;
 }
 
 /* Reusable Classes */
@@ -527,6 +527,11 @@ article.post-article  p {
     color: var(--mid-text);
     line-height: 1.4rem;
 }
+
+.blogpost-page h3 {
+    margin-bottom: 1.5rem;
+}
+
 
 .blogpost-info {
     margin: 1.5rem 0;
