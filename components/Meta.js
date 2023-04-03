@@ -20,7 +20,7 @@ const Meta = (props) => {
             <meta property="og:url" content="https://doganay.dev/" />
             <meta property="og:image" content={img} />
 
-            <title>{title}</title>
+            <title>{props.title}</title>
             <link rel='icon' href='/favicon.ico'/>
         </Head>
 
