@@ -9,8 +9,8 @@ const HomePersonal = () => {
             <div className='hero-img'></div>
             <div className='hero-details flex-col'>
             <p className='dark-text'>Personal website by&nbsp;
-              <Link href={'/'}>Doğan Ay Şengül</Link>. <br/>
-              I make software and I love writing.</p>
+              <Link href={'https://twitter.com/hereticdev/'}>Doğan Ay Şengül</Link>. <br/>
+              I make software.</p>
             </div>
           </div>
           <PersonalLinks/>

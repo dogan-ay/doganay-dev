@@ -1,9 +1,8 @@
 ---
 company: Alperensoft
-title: Frontend Developer
+title: Frontend Developer Intern
 works: 
-    - Frontend Developer Intern
+    - I developed user interface of e-commerce projects.
 startDate: 2022-10-5
 type: Work
 ---
-deneme

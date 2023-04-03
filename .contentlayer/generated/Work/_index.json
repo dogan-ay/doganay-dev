@@ -2,13 +2,13 @@
   {
     "company": "Alperensoft",
     "works": [
-      "Frontend Developer Intern"
+      "I developed user interface of e-commerce projects."
     ],
     "startDate": "2022-10-04T21:00:00.000Z",
-    "title": "Frontend Developer",
+    "title": "Frontend Developer Intern",
     "body": {
-      "raw": "deneme",
-      "html": "<p>deneme</p>"
+      "raw": "",
+      "html": ""
     },
     "_id": "works/alperensoft.md",
     "_raw": {

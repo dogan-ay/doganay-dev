@@ -333,7 +333,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 /* Home Styles */
@@ -356,6 +356,7 @@ footer {
     height: 4.5rem;
     border-radius: 50%;
 }
+
 
 .hero-details {
     max-width: 20rem;
@@ -532,6 +533,24 @@ article.post-article  p {
     margin-bottom: 1.5rem;
 }
 
+.blogpost-page li {
+    color: var(--mid-text);
+    line-height: 2.2rem;
+}
+
+.blogpost-page a {
+    color: var(--frost2);
+    line-height: 1.4rem;
+}
+
+.blogpost-page a::after {
+    content:  url('/icons/link.svg') !important;
+    padding-left: 0.5rem;
+}
+
+.blogpost-page a:hover {
+    text-decoration: underline var(--nord3);
+}
 
 .blogpost-info {
     margin: 1.5rem 0;
