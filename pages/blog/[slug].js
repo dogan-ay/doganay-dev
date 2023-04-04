@@ -31,7 +31,7 @@ const blogpost = ({post}) => {
 
   return (
     <>
-    <Meta description={post.description} title={post.title}/>
+    <Meta description={post.description} title={post.title} img={`/cover-img/${post.coverImg}`}/>
     <article className='post-article blogpost-page'>
       <h2>{post.title}</h2>
       <div className='blogpost-info'>

@@ -1,0 +1,128 @@
+{
+  "cacheItemsMap": {
+    "posts/@container query.md": {
+      "document": {
+        "title": "Merhaba @container",
+        "description": "CSS'de @container Sorgularına Kısa Bir Bakış",
+        "date": "2023-04-02T21:00:00.000Z",
+        "coverImg": "merhaba-container.jpg",
+        "body": {
+          "raw": "2022 yılında Safari, Chrome ve Firefox gibi çok kullanılan tarayıcılar tarafından desteklenmeye başlanan @container sorgularını ben de artık kullanmaya başlamayı düşünüyorum. Hem öğrendiklerimi not almak hem de henüz bu konuyu bilmeyen arkadaşlara kaynak oluşturmak amacı ile bu blog yazısını yazıyorum.\r\n \r\nBundan uzun zaman önce @media sorguları hayatımıza girdiğinde web geliştiriciler için UI geliştirme sürecinde ciddi değişikliklere neden olmuştu. Artık ekran boyutlarına ve cihaz özelliklerine göre stil yazabilir hale gelmiştik. Şimdi ise yeni bir sorgu türü hayatımıza giriyor. Medya sorguları ile ekran boyutuna göre bileşenlerimizin stilleri üzerinde değişiklik yapma kabiliyeti kazanmıştık, bu yeni sorgular ile bileşenlerin kapsayıcılarının boyutlarına ve stiline göre de bunu yapabileceğiz. \r\n\r\n@container sorguları özellikle component based geliştirmenin endüstri standardı olduğu şu zamanlarda en çok ihtiyacımız olan CSS özelliklerinden birisiydi. Çünkü bu sorgular sayesinde artık bileşenlerin göreli özelliklerini arayüzün geri kalanından bağımsız olarak geliştirebileceğiz.\r\n\r\n### @container Nedir?\r\n\r\n@container bir öğenin kapsayıcısının boyut veya stiline göre özellikler almasını sağlayan CSS kuralıdır. Bu özellik ile birlikte CSS'in desteklediği mantıksal işleçleri de kullanarak belirli koşullarda çalışacak stiller yazabiliriz. @media kuralına çok benzeyen bu özelliğin farkı ekran boyutuna değil tanımlandığı kapsayıcı işlevi gören bileşenin boyutuna göre koşullanabilmesidir.\r\n\r\n### @container Nasıl Kullanılır?\r\n\r\nBöyle bir HTML yapımız var. \"wrapper\" bizim @container sorgusu yazacağımız kapsayıcı. \"main\" ise bu kapsayıcının boyut ya da stil değerlerine göre değişecek olan alt kapsayıcımız.\r\n\r\n```html\r\n<div class=\"wrapper\">\r\n    <div class=\"main\">\r\n        <div class=\"box\"></div>\r\n        <div class=\"box\"></div>\r\n        <div class=\"box\"></div>\r\n    </div>\r\n</div>\r\n```\r\n\r\nKutuları flex ile yan yana getirdik ve biraz da güzel görünmesini sağladık.\r\n\r\n```css\r\n.main {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: space-evenly;\r\n  align-items: center;\r\n  gap: 20px;\r\n  background: #4C566A;\r\n  padding: 20px;\r\n}\r\n\r\n.box {\r\n  width: 150px;\r\n  height: 100px;\r\n  background-color: #81A1C1;\r\n}\r\n```\r\n\r\n![](/content-img/container-1.jpg)\r\n\r\nŞimdi @container kullanarak \"wrapper\"ın genişliği 400px'den küçük olduğu durumda \"main\" içerisindeki kutuların alt alta gelmesini sağlayacağız. Öncelikle kapsayıcımızda container-type özelliğine bir değer vermemiz gerekiyor. Ayrıca isimlendirebiliriz.\r\n\r\n```css\r\n.wrapper {\r\n    container-type: inline-size;\r\n    container-name: main-container;\r\n}\r\n```\r\n\r\nBu iki özelliği şu şekilde tek satırda da deklare edebiliriz.\r\n\r\n```css\r\n.wrapper {\r\n  container: main-container / inline-size;\r\n}\r\n```\r\n\r\nGelelim sorgumuza. Sözdizimi daha önce media sorgularına aşina olan kişilere tanıdık gelecektir.\r\n\r\n```plaintext\r\n @container isim (koşul) {\r\n    Koşul sağlandığında geçerli olacak stil.\r\n}\r\n```\r\n\r\nKodu yazalım.\r\n\r\n```css\r\n@container main-container (max-width: 400px) {\r\n  .main {\r\n    flex-direction: column;\r\n  }\r\n}\r\n```\r\n\"wrapper\"ın genişliği 400px'den daha küçük olduğunda elde ettiğimiz stil.\r\n\r\n![](/content-img/container-2.jpg)\r\n\r\n\r\n### Tarayıcı Desteği\r\n@container özelliği W3C CSS Containment Module Level 3 spesifikasyonunda yer alır. Bu modül şu an çalışma taslağı durumundadır. Aşağıda hangi tarayıcılarda hangi versiyondan itibaren desteklendiği yer almaktadır. Fakat bu özelliği kullanırken dikkat edilmesi gereken hususlardan birisi geliştirdiğiniz projede tarayıcıların hangi geçmiş versiyonlarına kadar destek vereceğinizdir.\r\n\r\n- ✅ Edge 106: 2 Ekim 2022   \r\n- ✅ Chrome 106: 22 Eylül 2022  \r\n- ✅ Safari 16: 11 Eylül 2022 \r\n\r\n[Güncel destek bilgisi](https://caniuse.com/css-container-queries)\r\n",
+          "html": "<p>2022 yılında Safari, Chrome ve Firefox gibi çok kullanılan tarayıcılar tarafından desteklenmeye başlanan @container sorgularını ben de artık kullanmaya başlamayı düşünüyorum. Hem öğrendiklerimi not almak hem de henüz bu konuyu bilmeyen arkadaşlara kaynak oluşturmak amacı ile bu blog yazısını yazıyorum.</p>\n<p>Bundan uzun zaman önce @media sorguları hayatımıza girdiğinde web geliştiriciler için UI geliştirme sürecinde ciddi değişikliklere neden olmuştu. Artık ekran boyutlarına ve cihaz özelliklerine göre stil yazabilir hale gelmiştik. Şimdi ise yeni bir sorgu türü hayatımıza giriyor. Medya sorguları ile ekran boyutuna göre bileşenlerimizin stilleri üzerinde değişiklik yapma kabiliyeti kazanmıştık, bu yeni sorgular ile bileşenlerin kapsayıcılarının boyutlarına ve stiline göre de bunu yapabileceğiz.</p>\n<p>@container sorguları özellikle component based geliştirmenin endüstri standardı olduğu şu zamanlarda en çok ihtiyacımız olan CSS özelliklerinden birisiydi. Çünkü bu sorgular sayesinde artık bileşenlerin göreli özelliklerini arayüzün geri kalanından bağımsız olarak geliştirebileceğiz.</p>\n<h3>@container Nedir?</h3>\n<p>@container bir öğenin kapsayıcısının boyut veya stiline göre özellikler almasını sağlayan CSS kuralıdır. Bu özellik ile birlikte CSS'in desteklediği mantıksal işleçleri de kullanarak belirli koşullarda çalışacak stiller yazabiliriz. @media kuralına çok benzeyen bu özelliğin farkı ekran boyutuna değil tanımlandığı kapsayıcı işlevi gören bileşenin boyutuna göre koşullanabilmesidir.</p>\n<h3>@container Nasıl Kullanılır?</h3>\n<p>Böyle bir HTML yapımız var. \"wrapper\" bizim @container sorgusu yazacağımız kapsayıcı. \"main\" ise bu kapsayıcının boyut ya da stil değerlerine göre değişecek olan alt kapsayıcımız.</p>\n<pre><code class=\"language-html\">&#x3C;div class=\"wrapper\">\r\n    &#x3C;div class=\"main\">\r\n        &#x3C;div class=\"box\">&#x3C;/div>\r\n        &#x3C;div class=\"box\">&#x3C;/div>\r\n        &#x3C;div class=\"box\">&#x3C;/div>\r\n    &#x3C;/div>\r\n&#x3C;/div>\n</code></pre>\n<p>Kutuları flex ile yan yana getirdik ve biraz da güzel görünmesini sağladık.</p>\n<pre><code class=\"language-css\">.main {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: space-evenly;\r\n  align-items: center;\r\n  gap: 20px;\r\n  background: #4C566A;\r\n  padding: 20px;\r\n}\r\n\r\n.box {\r\n  width: 150px;\r\n  height: 100px;\r\n  background-color: #81A1C1;\r\n}\n</code></pre>\n<p><img src=\"/content-img/container-1.jpg\" alt=\"\"></p>\n<p>Şimdi @container kullanarak \"wrapper\"ın genişliği 400px'den küçük olduğu durumda \"main\" içerisindeki kutuların alt alta gelmesini sağlayacağız. Öncelikle kapsayıcımızda container-type özelliğine bir değer vermemiz gerekiyor. Ayrıca isimlendirebiliriz.</p>\n<pre><code class=\"language-css\">.wrapper {\r\n    container-type: inline-size;\r\n    container-name: main-container;\r\n}\n</code></pre>\n<p>Bu iki özelliği şu şekilde tek satırda da deklare edebiliriz.</p>\n<pre><code class=\"language-css\">.wrapper {\r\n  container: main-container / inline-size;\r\n}\n</code></pre>\n<p>Gelelim sorgumuza. Sözdizimi daha önce media sorgularına aşina olan kişilere tanıdık gelecektir.</p>\n<pre><code class=\"language-plaintext\"> @container isim (koşul) {\r\n    Koşul sağlandığında geçerli olacak stil.\r\n}\n</code></pre>\n<p>Kodu yazalım.</p>\n<pre><code class=\"language-css\">@container main-container (max-width: 400px) {\r\n  .main {\r\n    flex-direction: column;\r\n  }\r\n}\n</code></pre>\n<p>\"wrapper\"ın genişliği 400px'den daha küçük olduğunda elde ettiğimiz stil.</p>\n<p><img src=\"/content-img/container-2.jpg\" alt=\"\"></p>\n<h3>Tarayıcı Desteği</h3>\n<p>@container özelliği W3C CSS Containment Module Level 3 spesifikasyonunda yer alır. Bu modül şu an çalışma taslağı durumundadır. Aşağıda hangi tarayıcılarda hangi versiyondan itibaren desteklendiği yer almaktadır. Fakat bu özelliği kullanırken dikkat edilmesi gereken hususlardan birisi geliştirdiğiniz projede tarayıcıların hangi geçmiş versiyonlarına kadar destek vereceğinizdir.</p>\n<ul>\n<li>✅ Edge 106: 2 Ekim 2022</li>\n<li>✅ Chrome 106: 22 Eylül 2022</li>\n<li>✅ Safari 16: 11 Eylül 2022</li>\n</ul>\n<p><a href=\"https://caniuse.com/css-container-queries\">Güncel destek bilgisi</a></p>"
+        },
+        "_id": "posts/@container query.md",
+        "_raw": {
+          "sourceFilePath": "posts/@container query.md",
+          "sourceFileName": "@container query.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/@container query"
+        },
+        "type": "Post",
+        "slug": "@container query",
+        "url": "/blog/@container query",
+        "readingTime": {
+          "text": "3 min read",
+          "minutes": 2.215,
+          "time": 132900,
+          "words": 443
+        }
+      },
+      "documentHash": "1680611036816",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "projects/doganay-dev.mdx": {
+      "document": {
+        "title": "Personal Website - doganay.dev",
+        "description": "This website 🎯",
+        "date": "2023-02-20T00:00:00.000Z",
+        "tags": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
+        "img": "dogandev.png",
+        "deployment": "https://github.com/dogan-ay/doganay-dev",
+        "body": {
+          "raw": "\r\nI used my favorite tech stack while developing my personal website. Especially, Next.js makes things easy when developing simple applications with few features like this website. On the styling side, I used pure CSS. I don't use CSS libraries or frameworks for styling unless necessary. I'm using Contentlayer to make things easier on the backend. To briefly mention it, it is an SDK that converts files written in MDX format to JSON format and provides an API for you to access data. Also, this project is hosted on Github and deployed with Vercel.\r\n\r\n\r\n",
+          "html": "<p>I used my favorite tech stack while developing my personal website. Especially, Next.js makes things easy when developing simple applications with few features like this website. On the styling side, I used pure CSS. I don't use CSS libraries or frameworks for styling unless necessary. I'm using Contentlayer to make things easier on the backend. To briefly mention it, it is an SDK that converts files written in MDX format to JSON format and provides an API for you to access data. Also, this project is hosted on Github and deployed with Vercel.</p>"
+        },
+        "_id": "projects/doganay-dev.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/doganay-dev.mdx",
+          "sourceFileName": "doganay-dev.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/doganay-dev"
+        },
+        "type": "Project",
+        "slug": "doganay-dev",
+        "url": "/projects/doganay-dev"
+      },
+      "documentHash": "1678808651224",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/translate-formatter.mdx": {
+      "document": {
+        "title": "Translate Formatter - Chrome Extension",
+        "description": "Delete line spaces in Google Translate!",
+        "date": "2021-12-24T00:00:00.000Z",
+        "tags": [
+          "JavaScript",
+          "CSS",
+          "HTML"
+        ],
+        "img": "translate1.png",
+        "deployment": "https://github.com/dogan-ay/translate-formatter",
+        "body": {
+          "raw": "\r\nThe copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.\r\n\r\n\r\n",
+          "html": "<p>The copied text to translate in Google Translate contains line spaces. These line break characters cause the text to be pasted incorrectly. As a result, the translation process may be out of context. This plugin deletes all \"\\n\" characters in the pasted text. Manually formatting long texts is tedious and time consuming. But you can automatically delete these spaces with translate-formatter.</p>"
+        },
+        "_id": "projects/translate-formatter.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/translate-formatter.mdx",
+          "sourceFileName": "translate-formatter.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/translate-formatter"
+        },
+        "type": "Project",
+        "slug": "translate-formatter",
+        "url": "/projects/translate-formatter"
+      },
+      "documentHash": "1676921081377",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "works/alperensoft.md": {
+      "document": {
+        "company": "Alperensoft",
+        "works": [
+          "I developed user interface of e-commerce projects."
+        ],
+        "startDate": "2022-10-04T21:00:00.000Z",
+        "title": "Frontend Developer Intern",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "works/alperensoft.md",
+        "_raw": {
+          "sourceFilePath": "works/alperensoft.md",
+          "sourceFileName": "alperensoft.md",
+          "sourceFileDir": "works",
+          "contentType": "markdown",
+          "flattenedPath": "works/alperensoft"
+        },
+        "type": "Work"
+      },
+      "documentHash": "1680544998103",
+      "hasWarnings": false,
+      "documentTypeName": "Work"
+    }
+  }
+}

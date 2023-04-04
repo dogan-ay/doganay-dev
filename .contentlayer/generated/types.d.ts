@@ -19,6 +19,8 @@ export type Post = {
   description: string
   /** The date of the post */
   date: IsoDateTimeString
+  /** The description of the post */
+  coverImg: string
   /** Markdown file body */
   body: Markdown
   slug: string
