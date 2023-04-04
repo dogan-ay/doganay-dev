@@ -13,7 +13,7 @@ export async function getStaticProps() {
 const Projects = ({projects}) => {
   return (
     <>
-        <Meta description={'All projects Doğan Ay Şengül'} title={'Projects - Doğan Ay Şengül'} keywords={''}/>
+        <Meta description={'All projects Doğan Ay Şengül'} title={'Projects - Doğan Ay Şengül'}/>
         <ProjectsPage projectsData={projects}/>
     </>
   )

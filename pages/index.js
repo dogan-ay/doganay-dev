@@ -29,7 +29,7 @@ export async function getStaticProps() {
 export default function Index({posts, projects, works}) {
   return (
     <>
-      <Meta title={'Doğan Ay Şengül'} description={'Hi, I am Doğan'} keywords={'Software Developer'}/>
+      <Meta title={'Doğan Ay Şengül'} description={'Hi, I am Doğan'}/>
         <Home blogData={posts} projectsData={projects} workData={works} />
     </>
   )

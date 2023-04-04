@@ -3,6 +3,7 @@ title: Merhaba @container
 date: 2023-4-3
 description: CSS'de @container Sorgularına Kısa Bir Bakış 
 type: Post
+coverImg: merhaba-container.jpg
 ---
 2022 yılında Safari, Chrome ve Firefox gibi çok kullanılan tarayıcılar tarafından desteklenmeye başlanan @container sorgularını ben de artık kullanmaya başlamayı düşünüyorum. Hem öğrendiklerimi not almak hem de henüz bu konuyu bilmeyen arkadaşlara kaynak oluşturmak amacı ile bu blog yazısını yazıyorum.
  

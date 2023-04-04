@@ -8,9 +8,9 @@ const Meta = (props) => {
     <div>
         <Head>
             <meta name="description" content={props.description}/>
-            <meta name="keywords" content={props.keywords}/>
             <meta name="twitter:card" content="summary_large_image"></meta>
             <meta name="twitter:site" content="@hereticdev" />
+            <meta name="twitter:creator" content="@hereticdev" />
             <meta name="twitter:title" content={props.title} />
             <meta name="twitter:description" content={props.description} />
             <meta name="twitter:image" content={img} />
