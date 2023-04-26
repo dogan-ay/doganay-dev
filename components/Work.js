@@ -26,23 +26,29 @@ export const Work = (props) => {
             
             <div className="work-details">
                 <h2>{active.title} <Link href="/">@ {active.company}</Link></h2>
-               <span className="flex">
-                    <p className='dark-text' dateTime={active.startDate}>
-                            {format(parseISO(active.startDate), 'LLLL  yyyy')} -
-                    </p>
-                            {
-                                active.endDate ? 
-                                <p className='dark-text' dateTime={active.endDate}>
-                                {format(parseISO(active.endDate), 'LLLL  yyyy')}
-                                </p>
-                                : <p className="dark-text">Present</p>
-                            }
-               </span>
+               <details className="work-acordion">
+                <summary>
+                    Details
+                </summary>
+                        <span className="flex">
+                        <p className='dark-text' dateTime={active.startDate}>
+                                {format(parseISO(active.startDate), 'LLLL  yyyy')} -
+                        </p>
+                                {
+                                    active.endDate ? 
+                                    <p className='dark-text' dateTime={active.endDate}>
+                                    {format(parseISO(active.endDate), 'LLLL  yyyy')}
+                                    </p>
+                                    : <p className="dark-text">Present</p>
+                                }
+                            </span>
+                    
                <ul>
                     {active.works.map((item) => (
                         <li>{item}</li>
                     ))}
                </ul>
+               </details>
             </div>
         </div>
         </>
