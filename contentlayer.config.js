@@ -75,6 +75,12 @@ export const Project = defineDocumentType(() => ({
     deployment: {
       type: 'string',
     },
+    live: {
+      type: 'string',
+    },
+    liveName: {
+      type: 'string',
+    },
   },
   computedFields: {
     slug: {

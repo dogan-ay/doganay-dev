@@ -29,6 +29,35 @@
     "url": "/projects/doganay-dev"
   },
   {
+    "title": "Online Metronome",
+    "description": "A metronome with a modern UI.",
+    "date": "2023-04-26T00:00:00.000Z",
+    "tags": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "img": "metronome.png",
+    "deployment": "https://github.com/dogan-ay/metronome",
+    "live": "https://dogan-ay.github.io/metronome/",
+    "liveName": "Metronome App",
+    "body": {
+      "raw": "\r\nRecently, a new design system called Baklava Design was announced by the software team of the Turkish e-commerce marketplace Trendyol. I made this project to try Baklava Design. This is a metronome with two different theme options. It has a beat feature according to the rhythm. There is also a BPM setting. In  addition to them, there are three sound options in my project.",
+      "html": "<p>Recently, a new design system called Baklava Design was announced by the software team of the Turkish e-commerce marketplace Trendyol. I made this project to try Baklava Design. This is a metronome with two different theme options. It has a beat feature according to the rhythm. There is also a BPM setting. In  addition to them, there are three sound options in my project.</p>"
+    },
+    "_id": "projects/metronome.mdx",
+    "_raw": {
+      "sourceFilePath": "projects/metronome.mdx",
+      "sourceFileName": "metronome.mdx",
+      "sourceFileDir": "projects",
+      "contentType": "mdx",
+      "flattenedPath": "projects/metronome"
+    },
+    "type": "Project",
+    "slug": "metronome",
+    "url": "/projects/metronome"
+  },
+  {
     "title": "Translate Formatter - Chrome Extension",
     "description": "Delete line spaces in Google Translate!",
     "date": "2021-12-24T00:00:00.000Z",

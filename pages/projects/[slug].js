@@ -34,9 +34,13 @@ export async function getStaticPaths() {
       <h3>Screenshots</h3>
       <img src={`/${project.img}`}></img>
       <h3>Project</h3>
+      {project.live ? <Link href={project.live}>
+        <p className='light-text button'>{project.liveName} ⟶</p>
+      </Link> : null}
       <Link href={project.deployment}>
         <p className='light-text button'>Github ⟶</p>
       </Link>
+     
       <h3>Tech Stack</h3>
       <div className='flex' style={{flexWrap: 'wrap'}}>
         {project.tags.map( tag => <p className={`tech-tag ${tag}`}>{tag}</p>)}

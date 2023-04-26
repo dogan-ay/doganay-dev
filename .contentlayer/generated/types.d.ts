@@ -42,6 +42,8 @@ export type Project = {
   tags: string[]
   img?: string | undefined
   deployment?: string | undefined
+  live?: string | undefined
+  liveName?: string | undefined
   /** Markdown file body */
   body: Markdown
   slug: string
